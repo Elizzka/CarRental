@@ -1,5 +1,4 @@
 ﻿using CarRental.DataAccess.Entities;
-using System.Runtime.InteropServices;
 
 namespace CarRental.DataAccess.CQRS.Commands
 {

@@ -21,14 +21,13 @@ namespace CarRental.ApplicationServices.API.Handlers
 
         public async Task<DeleteCarResponse> Handle(DeleteCarRequest request, CancellationToken cancellationToken)
         {
-            //var car = this.mapper.Map<Car>(request);
             var command = new DeleteCarCommand() { Id = request.Id };
 
             var deletedCar = await this.commandExecutor.Execute(command);
 
             if (deletedCar == null)
             {
-                return new DeleteCarResponse() { Data = null }; // Możesz dodać obsługę błędu 404
+                return new DeleteCarResponse() { Data = null }; 
             }
 
             return new DeleteCarResponse()
