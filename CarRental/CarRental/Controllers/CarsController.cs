@@ -31,6 +31,21 @@ namespace CarRental.Controllers
             var response = await this.mediator.Send(request);
             return this.Ok(response);
         }
+
+        [HttpDelete]
+        [Route("{id}")]
+        public async Task<IActionResult> DeleteCar([FromRoute] int id)
+        {
+            var request = new DeleteCarRequest() { Id = id };
+            var response = await this.mediator.Send(request);
+
+            if (response.Data == null) 
+            {
+                return NotFound(new { message = "Car not found" });
+            }
+
+            return NoContent();
+        }
     }
 }
 

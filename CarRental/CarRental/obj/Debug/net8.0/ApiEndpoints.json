@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "CarRental.ApplicationServices.API.Domain.CarsReqAndResp.GetCarsRequest",
+        "Name": "Brand",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -26,6 +26,22 @@
       {
         "Name": "request",
         "Type": "CarRental.ApplicationServices.API.Domain.CarsReqAndResp.AddCarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRental.Controllers.CarsController",
+    "Method": "DeleteCar",
+    "RelativePath": "Cars/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

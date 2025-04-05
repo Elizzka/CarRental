@@ -8,7 +8,11 @@ namespace CarRental.DataAccess.CQRS.Queries
         public string Brand { get; set; }
         public override Task<List<Car>> Execute(CarRentalStorageContext context)
         {
-            //context.Cars.ToListAsync();     jesli brand nie wystepuje, zrobic ifa
+            if (string.IsNullOrWhiteSpace(this.Brand))
+            {
+                return context.Cars.ToListAsync();
+            }
+               
             return context.Cars.Where(x => x.Brand == this.Brand).ToListAsync();
         }
     }
