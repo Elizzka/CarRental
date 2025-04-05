@@ -1,5 +1,101 @@
 [
   {
+    "ContainingType": "CarRental.Controllers.CarsController",
+    "Method": "GetAllCars",
+    "RelativePath": "Cars",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CarRental.ApplicationServices.API.Domain.CarsReqAndResp.GetCarsRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRental.Controllers.CarsController",
+    "Method": "AddCar",
+    "RelativePath": "Cars",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CarRental.ApplicationServices.API.Domain.CarsReqAndResp.AddCarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRental.Controllers.CustomersController",
+    "Method": "GetAllCustomers",
+    "RelativePath": "Customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CarRental.ApplicationServices.API.Domain.GetCustomersRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRental.Controllers.EmployeesController",
+    "Method": "GetAllEmployees",
+    "RelativePath": "Employees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CarRental.ApplicationServices.API.Domain.GetEmployeesRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRental.Controllers.RentalsController",
+    "Method": "GetAllRentals",
+    "RelativePath": "Rentals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CarRental.ApplicationServices.API.Domain.GetRentalsRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRental.Controllers.RentalsDataController",
+    "Method": "GetAllRentalsData",
+    "RelativePath": "RentalsData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CarRental.ApplicationServices.API.Domain.GetRentalsDataRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CarRental.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
