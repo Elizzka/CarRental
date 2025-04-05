@@ -5,10 +5,11 @@ namespace CarRental.DataAccess.CQRS.Queries
 {
     public class GetCarsQuery : QueryBase<List<Car>>
     {
-        public int Id { get; set; }
+        public string Brand { get; set; }
         public override Task<List<Car>> Execute(CarRentalStorageContext context)
         {
-            return context.Cars.ToListAsync();
+            //context.Cars.ToListAsync();     jesli brand nie wystepuje, zrobic ifa
+            return context.Cars.Where(x => x.Brand == this.Brand).ToListAsync();
         }
     }
 }

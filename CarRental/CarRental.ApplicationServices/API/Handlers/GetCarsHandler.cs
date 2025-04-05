@@ -19,7 +19,10 @@ namespace CarRental.ApplicationServices.API.Handlers
 
         public async Task<GetCarsResponse> Handle(GetCarsRequest request, CancellationToken cancellationToken)
         {
-            var query = new GetCarsQuery();
+            var query = new GetCarsQuery()
+            {
+                Brand = request.Brand
+            };
             var cars = await this.queryExecutor.Execute(query);
             var mappedCar = this.mapper.Map<List<Domain.Models.Car>>(cars);
 
