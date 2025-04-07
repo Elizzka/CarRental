@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CarRental.DataAccess.CQRS.Commands
 {
-    public class DeleteRental : CommandBase<int, Rental>
+    public class DeleteRentalCommand : CommandBase<int, Rental>
     {
         public int Id { get; set; }
 

@@ -3,7 +3,6 @@ using CarRental.ApplicationServices.API.Domain.CarsReqAndResp;
 using CarRental.DataAccess.CQRS.Commands;
 using CarRental.DataAccess.CQRS;
 using MediatR;
-using CarRental.DataAccess.Entities;
 
 namespace CarRental.ApplicationServices.API.Handlers
 {
