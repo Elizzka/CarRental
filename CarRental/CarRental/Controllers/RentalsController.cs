@@ -24,6 +24,14 @@ namespace CarRental.Controllers
             return this.Ok(response);
         }
 
+        [HttpPost]
+        [Route("")]
+        public async Task<IActionResult> AddRental([FromBody] AddRentalRequest request)
+        {
+            var response = await this.mediator.Send(request);
+            return this.Ok(response);
+        }
+
         [HttpPut]
         [Route("{id}")]
         public async Task<IActionResult> UpdateRental([FromRoute] int id, [FromBody] UpdateRentalRequest request)

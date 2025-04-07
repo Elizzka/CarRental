@@ -20,6 +20,12 @@ namespace CarRental.ApplicationServices.Mappings
                 .ForMember(x => x.RentalDate, y => y.MapFrom(z => z.RentalDate))
                 .ForMember(x => x.ReturnDate, y => y.MapFrom(z => z.ReturnDate))
                 .ForMember(x => x.CustomerId, y => y.MapFrom(z => z.CustomerId));
+
+            this.CreateMap<AddRentalRequest, Rental>()
+               .ForMember(x => x.RentalDate, y => y.MapFrom(z => z.RentalDate))
+                .ForMember(x => x.ReturnDate, y => y.MapFrom(z => z.ReturnDate))
+                .ForMember(x => x.CustomerId, y => y.MapFrom(z => z.CustomerId))
+                .ForMember(x => x.CustomerId, y => y.MapFrom(z => z.CustomerId));
         }
     }
 }

@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CarRental.ApplicationServices.API.Domain.Models;
 
 namespace CarRental.ApplicationServices.API.Domain.RentalReqAndResp
 {
-    internal class AddRentalResponse
+    public class AddRentalResponse : ResponseBase<Rental>
     {
+
     }
 }

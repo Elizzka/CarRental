@@ -64,6 +64,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CarRental.Controllers.CustomersController",
+    "Method": "AddCustomer",
+    "RelativePath": "Customers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CarRental.ApplicationServices.API.Domain.CustomerReqAndResp.AddCustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CarRental.Controllers.EmployeesController",
     "Method": "GetAllEmployees",
     "RelativePath": "Employees",
@@ -91,6 +107,22 @@
         "Name": "request",
         "Type": "CarRental.ApplicationServices.API.Domain.RentalReqAndResp.GetRentalsRequest",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRental.Controllers.RentalsController",
+    "Method": "AddRental",
+    "RelativePath": "Rentals",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CarRental.ApplicationServices.API.Domain.RentalReqAndResp.AddRentalRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
 
 namespace CarRental.ApplicationServices.API.Domain.RentalReqAndResp
 {
-    internal class AddRentalRequest
+    public class AddRentalRequest : IRequest<AddRentalResponse>
     {
+        public DateTime RentalDate { get; set; }
+        public DateTime? ReturnDate { get; set; }
+        public int CustomerId { get; set; }
+        public int EmployeeId { get; set; }
     }
 }

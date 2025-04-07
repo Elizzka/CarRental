@@ -48,8 +48,3 @@ namespace CarRental.Controllers
         }
     }
 }
-
-
-//[HttpGet]
-//[Route("{carId}")]
-//public Car GetCarById(int carId) => this.carRepository.GetById(carId);
