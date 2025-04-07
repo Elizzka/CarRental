@@ -1,4 +1,4 @@
-﻿using CarRental.ApplicationServices.API.Domain;
+﻿using CarRental.ApplicationServices.API.Domain.RentalReqAndResp;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,6 +19,15 @@ namespace CarRental.Controllers
         [Route("")]
         public async Task<IActionResult> GetAllRentals([FromQuery] GetRentalsRequest request)
         {
+            var response = await this.mediator.Send(request);
+            return this.Ok(response);
+        }
+
+        [HttpPut]
+        [Route("{id}")]
+        public async Task<IActionResult> UpdateRental([FromRoute] int id, [FromBody] UpdateRentalRequest request)
+        {
+            request.Id = id;
             var response = await this.mediator.Send(request);
             return this.Ok(response);
         }

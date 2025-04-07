@@ -1,8 +1,8 @@
-﻿using CarRental.ApplicationServices.API.Domain;
-using MediatR;
+﻿using MediatR;
 using AutoMapper;
 using CarRental.DataAccess.CQRS.Queries;
 using CarRental.DataAccess.CQRS;
+using CarRental.ApplicationServices.API.Domain.RentalDataReqAndResp;
 
 
 namespace CarRental.ApplicationServices.API.Handlers

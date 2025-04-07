@@ -1,6 +1,24 @@
-﻿namespace CarRental.DataAccess.CQRS.Commands
+﻿using CarRental.DataAccess.Entities;
+using Microsoft.EntityFrameworkCore;
+
+namespace CarRental.DataAccess.CQRS.Commands
 {
-    public class UpdateRentalDataCommand
+    public class UpdateRentalDataCommand : CommandBase<RentalData, RentalData>
     {
+        public override async Task<RentalData> Execute(CarRentalStorageContext context)
+        {
+            var rentalData = await context.RentalsData.FirstOrDefaultAsync(r => r.Id == this.Parameter.Id);
+            if (rentalData == null)
+            {
+                return null;
+            }
+
+            rentalData.CarId = this.Parameter.CarId;
+            rentalData.PricePerDay = this.Parameter.PricePerDay;
+            rentalData.NumberOfDays = this.Parameter.NumberOfDays;
+
+            await context.SaveChangesAsync();
+            return rentalData;
+        }
     }
 }

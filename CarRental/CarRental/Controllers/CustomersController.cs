@@ -1,4 +1,4 @@
-﻿using CarRental.ApplicationServices.API.Domain;
+﻿using CarRental.ApplicationServices.API.Domain.CustomerReqAndResp;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

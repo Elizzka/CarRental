@@ -57,7 +57,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "CarRental.ApplicationServices.API.Domain.GetCustomersRequest",
+        "Type": "CarRental.ApplicationServices.API.Domain.CustomerReqAndResp.GetCustomersRequest",
         "IsRequired": false
       }
     ],
@@ -89,8 +89,29 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "CarRental.ApplicationServices.API.Domain.GetRentalsRequest",
+        "Type": "CarRental.ApplicationServices.API.Domain.RentalReqAndResp.GetRentalsRequest",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarRental.Controllers.RentalsController",
+    "Method": "UpdateRental",
+    "RelativePath": "Rentals/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "CarRental.ApplicationServices.API.Domain.RentalReqAndResp.UpdateRentalRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -105,7 +126,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "CarRental.ApplicationServices.API.Domain.GetRentalsDataRequest",
+        "Type": "CarRental.ApplicationServices.API.Domain.RentalDataReqAndResp.GetRentalsDataRequest",
         "IsRequired": false
       }
     ],

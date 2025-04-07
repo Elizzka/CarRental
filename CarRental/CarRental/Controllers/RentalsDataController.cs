@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MediatR;
-using CarRental.ApplicationServices.API.Domain;
+using CarRental.ApplicationServices.API.Domain.RentalDataReqAndResp;
 
 namespace CarRental.Controllers
 {
