@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CarRental.ApplicationServices.API.Domain.RentalReqAndResp;
+using MediatR;
 
 namespace CarRental.ApplicationServices.API.Domain.RentalDataReqAndResp
 {
-    internal class UpdateRentalDataRequest
+    public class UpdateRentalDataRequest : IRequest<UpdateRentalDataResponse>
     {
+        public int Id { get; set; }
+        public int CarId { get; set; }
+        public int PricePerDay { get; set; }
+        public int NumberOfDays { get; set; }
     }
 }

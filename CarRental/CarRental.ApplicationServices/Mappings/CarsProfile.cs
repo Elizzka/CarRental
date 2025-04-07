@@ -13,8 +13,7 @@ namespace CarRental.ApplicationServices.Mappings
                 .ForMember(x => x.Brand, y => y.MapFrom(z => z.Brand))
                 .ForMember(x => x.Model, y => y.MapFrom(z => z.Model))
                 .ForMember(x => x.YearOfProduction, y => y.MapFrom(z => z.YearOfProduction))
-                .ForMember(x => x.Availability, y => y.MapFrom(z => z.Availability))
-;
+                .ForMember(x => x.Availability, y => y.MapFrom(z => z.Availability));
 
             this.CreateMap<Car, API.Domain.Models.Car>()
                 .ForMember(x => x.Id, y => y.MapFrom(z => z.Id))

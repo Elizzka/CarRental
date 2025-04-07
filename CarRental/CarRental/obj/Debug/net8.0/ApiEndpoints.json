@@ -133,6 +133,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CarRental.Controllers.RentalsDataController",
+    "Method": "UpdateRentalData",
+    "RelativePath": "RentalsData/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "CarRental.ApplicationServices.API.Domain.RentalDataReqAndResp.UpdateRentalDataRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CarRental.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
