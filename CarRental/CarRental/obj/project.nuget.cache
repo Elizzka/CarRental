@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "w06U8t7VhSwHxaxw/jVAnBqqacReVDSyQcwELLWDwyiDb6Ul0ic8z8gZ4QcDyolTtpU8btxqiPZjFDoNUoRCww==",
+  "dgSpecHash": "3F3yU5ZR9nKM1p2hJjKobIjR4iMoJ+Qj6ZU3TUDjeAI7tLdt/CP+spNagFZUXz92lsbZTz7lA6mckPLQuRB+xg==",
   "success": true,
   "projectFilePath": "C:\\Users\\elizz\\OneDrive\\Pulpit\\CarRental\\CarRental\\CarRental\\CarRental.csproj",
   "expectedPackageFiles": [
@@ -62,6 +62,7 @@
     "C:\\Users\\elizz\\.nuget\\packages\\nlog\\5.4.0\\nlog.5.4.0.nupkg.sha512",
     "C:\\Users\\elizz\\.nuget\\packages\\nlog.extensions.logging\\5.4.0\\nlog.extensions.logging.5.4.0.nupkg.sha512",
     "C:\\Users\\elizz\\.nuget\\packages\\nlog.web.aspnetcore\\5.4.0\\nlog.web.aspnetcore.5.4.0.nupkg.sha512",
+    "C:\\Users\\elizz\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512",
     "C:\\Users\\elizz\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\elizz\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "C:\\Users\\elizz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",

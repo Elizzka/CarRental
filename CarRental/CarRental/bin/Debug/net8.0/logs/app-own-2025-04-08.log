@@ -1,0 +1,19 @@
+2025-04-08 14:00:00.3848 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-08 14:00:00.3921 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-08 14:00:00.6717 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-08 14:00:00.7082 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-08 14:00:00.7392 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-08 14:00:05.9281 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/Cars
+2025-04-08 14:00:12.6164 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/Cars
+2025-04-08 14:00:57.5219 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/Cars
+2025-04-08 14:00:58.7576 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/Cars
+2025-04-08 14:00:59.4113 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/Cars
+2025-04-08 14:00:59.9547 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/Cars
+2025-04-08 16:06:37.0538 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-08 16:06:37.0538 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-08 16:06:37.1762 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-08 16:06:37.1762 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-08 16:06:37.1762 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-08 16:06:44.3818 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/Cars
+2025-04-08 16:06:54.1398 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/Cars
+2025-04-08 16:07:18.2571 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/Cars

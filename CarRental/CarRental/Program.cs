@@ -7,9 +7,14 @@ using CarRental.DataAccess.CQRS;
 using FluentValidation.AspNetCore;
 using CarRental.ApplicationServices.API.Validators;
 using Microsoft.AspNetCore.Mvc;
+using NLog.Web;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Logging.ClearProviders();
+builder.Logging.SetMinimumLevel(LogLevel.Trace);
+builder.Host.UseNLog();
 
 // Add services to the container.
 
@@ -20,7 +25,6 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IQueryExecutor, QueryExecutor>();
 builder.Services.AddTransient<ICommandExecutor, CommandExecutor>();
-
 builder.Services.AddMvcCore()
     .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<AddCarRequestValidator>());
 
@@ -30,12 +34,8 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
 });
 
 builder.Services.AddAutoMapper(typeof(CarsProfile).Assembly);
-
 builder.Services.AddMediatR(typeof(ResponseBase<>).Assembly);
-
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-
-
 builder.Services.AddDbContext<CarRentalStorageContext>(
     opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("CarRentalDatabaseConnection")));
 

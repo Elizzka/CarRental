@@ -9,8 +9,10 @@ namespace CarRental.Controllers
     [Route("[controller]")]
     public class CarsController : ApiControllerBase
     {
-        public CarsController(IMediator mediator) : base(mediator) { }
-
+        public CarsController(IMediator mediator, ILogger<CarsController> logger) : base(mediator) 
+        {
+            logger.LogInformation("We are in Cars");
+        } 
 
         [HttpGet]
         [Route("")]

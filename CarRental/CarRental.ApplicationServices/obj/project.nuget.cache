@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CkcrF+eGvjiWL8u1MjatWJERxavgFS4sgM34Z1MFp+6dkKYY2U5NOEy4sjFpvbpCKgW8pe0Q4ZZbkNiIguAlHw==",
+  "dgSpecHash": "OGaJDXNhWY1upnw11I/u9A7MD2pVFGxWnxltjDwcezq7E4j2sI9y/+K+z1zzOpHcs6WTlW4+iooi91nGEEzq0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\elizz\\OneDrive\\Pulpit\\CarRental\\CarRental\\CarRental.ApplicationServices\\CarRental.ApplicationServices.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,7 @@
     "C:\\Users\\elizz\\.nuget\\packages\\nlog\\5.4.0\\nlog.5.4.0.nupkg.sha512",
     "C:\\Users\\elizz\\.nuget\\packages\\nlog.extensions.logging\\5.4.0\\nlog.extensions.logging.5.4.0.nupkg.sha512",
     "C:\\Users\\elizz\\.nuget\\packages\\nlog.web.aspnetcore\\5.4.0\\nlog.web.aspnetcore.5.4.0.nupkg.sha512",
+    "C:\\Users\\elizz\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512",
     "C:\\Users\\elizz\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\elizz\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\elizz\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.3\\system.diagnostics.diagnosticsource.9.0.3.nupkg.sha512",
