@@ -7,53 +7,38 @@ namespace CarRental.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class RentalsController : ControllerBase
+    public class RentalsController : ApiControllerBase
     {
-        private readonly IMediator mediator;
-
-        public RentalsController(IMediator mediator)
-        {
-            this.mediator = mediator;
-        }
+        public RentalsController(IMediator mediator) : base(mediator) { }
 
         [HttpGet]
         [Route("")]
-        public async Task<IActionResult> GetAllRentals([FromQuery] GetRentalsRequest request)
+        public Task<IActionResult> GetAllRentals([FromQuery] GetRentalsRequest request)
         {
-            var response = await this.mediator.Send(request);
-            return this.Ok(response);
+            return this.HandleRequest<GetRentalsRequest, GetRentalsResponse>(request);
         }
 
         [HttpPost]
         [Route("")]
-        public async Task<IActionResult> AddRental([FromBody] AddRentalRequest request)
+        public Task<IActionResult> AddRental([FromBody] AddRentalRequest request)
         {
-            var response = await this.mediator.Send(request);
-            return this.Ok(response);
+            return this.HandleRequest<AddRentalRequest, AddRentalResponse>(request);
         }
 
         [HttpPut]
         [Route("{id}")]
-        public async Task<IActionResult> UpdateRental([FromRoute] int id, [FromBody] UpdateRentalRequest request)
+        public Task<IActionResult> UpdateRental([FromRoute] int id, [FromBody] UpdateRentalRequest request)
         {
             request.Id = id;
-            var response = await this.mediator.Send(request);
-            return this.Ok(response);
+            return this.HandleRequest<UpdateRentalRequest, UpdateRentalResponse>(request);
         }
 
         [HttpDelete]
         [Route("{id}")]
-        public async Task<IActionResult> DeleteRental([FromRoute] int id)
+        public Task<IActionResult> DeleteRental([FromRoute] int id)
         {
             var request = new DeleteRentalRequest() { Id = id };
-            var response = await this.mediator.Send(request);
-
-            if (response.Data == null)
-            {
-                return NotFound(new { message = "Rental not found" });
-            }
-
-            return NoContent();
+            return this.HandleRequest<DeleteRentalRequest, DeleteRentalResponse>(request);
         }
     }
 }

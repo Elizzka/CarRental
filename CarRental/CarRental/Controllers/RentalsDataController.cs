@@ -2,35 +2,30 @@
 using MediatR;
 using CarRental.ApplicationServices.API.Domain.RentalDataReqAndResp;
 using CarRental.ApplicationServices.API.Domain.RentalReqAndResp;
+using CarRental.ApplicationServices.API.Domain.CarsReqAndResp;
 
 namespace CarRental.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class RentalsDataController : ControllerBase
+    public class RentalsDataController : ApiControllerBase
     {
-        private readonly IMediator mediator;
-
-        public RentalsDataController(IMediator mediator)
-        {
-            this.mediator = mediator;
-        }
+        public RentalsDataController(IMediator mediator) : base(mediator) { }
 
         [HttpGet]
         [Route("")]
-        public async Task<IActionResult> GetAllRentalsData([FromQuery] GetRentalsDataRequest request)
+        public Task<IActionResult> GetAllRentalsData([FromQuery] GetRentalsDataRequest request)
         {
-            var response = await this.mediator.Send(request);
-            return this.Ok(response);
+            return this.HandleRequest<GetRentalsDataRequest, GetRentalsDataResponse>(request);
         }
 
         [HttpPut]
         [Route("{id}")]
-        public async Task<IActionResult> UpdateRentalData([FromRoute] int id, [FromBody] UpdateRentalDataRequest request)
+        public Task<IActionResult> UpdateRentalData([FromRoute] int id, [FromBody] UpdateRentalDataRequest request)
         {
             request.Id = id;
-            var response = await this.mediator.Send(request);
-            return this.Ok(response);
+            return this.HandleRequest<UpdateRentalDataRequest, UpdateRentalDataResponse>(request);
+
         }
     }
 }

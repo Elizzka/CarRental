@@ -89,7 +89,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "CarRental.ApplicationServices.API.Domain.GetEmployeesRequest",
+        "Type": "CarRental.ApplicationServices.API.Domain.EmployeeReqAndResp.GetEmployeesRequest",
         "IsRequired": false
       }
     ],

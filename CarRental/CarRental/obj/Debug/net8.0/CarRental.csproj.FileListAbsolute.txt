@@ -176,3 +176,6 @@ C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\bin\Debug\net8.0\Ca
 C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\bin\Debug\net8.0\CarRental.ApplicationServices.pdb
 C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

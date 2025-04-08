@@ -6,29 +6,24 @@ namespace CarRental.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class CustomersController : ControllerBase
+    public class CustomersController : ApiControllerBase
     {
-        private readonly IMediator mediator;
-
-        public CustomersController(IMediator mediator)
-        {
-            this.mediator = mediator;
-        }
+        public CustomersController(IMediator mediator) : base(mediator) { }
 
         [HttpGet]
         [Route("")]
-        public async Task<IActionResult> GetAllCustomers([FromQuery] GetCustomersRequest request)
+        public Task<IActionResult> GetAllCustomers([FromQuery] GetCustomersRequest request)
         {
-            var response = await this.mediator.Send(request);
-            return this.Ok(response);
+            return this.HandleRequest<GetCustomersRequest, GetCustomersResponse>(request);
+
         }
 
         [HttpPost]
         [Route("")]
-        public async Task<IActionResult> AddCustomer([FromBody] AddCustomerRequest request)
+        public Task<IActionResult> AddCustomer([FromBody] AddCustomerRequest request)
         {
-            var response = await this.mediator.Send(request);
-            return this.Ok(response);
+            return this.HandleRequest<AddCustomerRequest, AddCustomerResponse>(request);
+
         }
     }
 }

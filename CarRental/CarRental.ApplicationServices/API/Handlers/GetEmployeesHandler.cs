@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using CarRental.ApplicationServices.API.Domain;
+using CarRental.ApplicationServices.API.Domain.EmployeeReqAndResp;
 using CarRental.DataAccess.CQRS;
 using CarRental.DataAccess.CQRS.Queries;
 using MediatR;

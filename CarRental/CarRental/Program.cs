@@ -4,6 +4,9 @@ using CarRental.ApplicationServices.API.Domain;
 using MediatR;
 using CarRental.ApplicationServices.Mappings;
 using CarRental.DataAccess.CQRS;
+using FluentValidation.AspNetCore;
+using CarRental.ApplicationServices.API.Validators;
+using Microsoft.AspNetCore.Mvc;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +21,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<IQueryExecutor, QueryExecutor>();
 builder.Services.AddTransient<ICommandExecutor, CommandExecutor>();
 
+builder.Services.AddMvcCore()
+    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<AddCarRequestValidator>());
+
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+});
 
 builder.Services.AddAutoMapper(typeof(CarsProfile).Assembly);
 
