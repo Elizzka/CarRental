@@ -15,6 +15,6 @@ namespace CarRental.DataAccess
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Rental> Rentals { get; set; }
         public DbSet<RentalData> RentalsData { get; set; }
-
+        public DbSet<User> Users { get; set; }
     }
 }

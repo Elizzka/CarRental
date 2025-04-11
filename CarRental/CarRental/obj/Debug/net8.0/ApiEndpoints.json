@@ -202,6 +202,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CarRental.Controllers.UsersController",
+    "Method": "GetAll",
+    "RelativePath": "Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CarRental.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

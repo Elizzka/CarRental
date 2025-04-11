@@ -1,0 +1,59 @@
+2025-04-10 10:36:14.1969 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-10 10:36:14.2130 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-10 10:36:14.4881 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-10 10:36:14.5077 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-10 10:36:14.5665 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-10 10:36:55.0008 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/Cars
+2025-04-10 10:45:00.0098 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-10 10:45:00.0240 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-10 10:45:00.5719 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-10 10:45:00.6562 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-10 10:45:01.0471 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-10 10:45:25.0935 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/Cars
+2025-04-10 10:45:49.5505 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/Cars
+2025-04-10 16:05:30.3803 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-10 16:05:30.3803 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-10 16:05:30.5525 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-10 16:05:30.5525 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-10 16:05:30.5525 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-10 16:07:47.2286 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:09:42.1844 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:17:13.9593 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-10 16:17:13.9593 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-10 16:17:14.1410 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-10 16:17:14.1410 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-10 16:17:14.1410 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-10 16:17:34.0863 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:18:35.0345 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:18:38.4206 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:19:24.2219 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-10 16:19:24.2219 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-10 16:19:24.3923 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-10 16:19:24.4138 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-10 16:19:24.4578 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-10 16:19:35.6022 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:19:52.8311 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:29:17.3634 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-10 16:29:17.3788 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-10 16:29:17.6579 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-10 16:29:17.9579 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-10 16:29:17.9579 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-10 16:29:26.0525 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:29:57.4238 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:29:58.9212 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:30:23.1927 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:32:52.3636 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-10 16:32:52.3636 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-10 16:32:52.5522 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-10 16:32:52.5522 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-10 16:32:52.5522 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-10 16:33:00.8305 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:33:14.0351 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:33:19.8264 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:33:47.7469 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:33:58.1016 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:34:09.6271 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:34:54.6757 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:34:59.5597 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:36:27.3738 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-10 16:36:32.6339 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users

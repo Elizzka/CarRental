@@ -8,6 +8,8 @@ using FluentValidation.AspNetCore;
 using CarRental.ApplicationServices.API.Validators;
 using Microsoft.AspNetCore.Mvc;
 using NLog.Web;
+using Microsoft.AspNetCore.Authentication;
+using CarRental.Authentication;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,6 +24,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddAuthentication("BasicAuthentication")
+    .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("BasicAuthentication", null);
 
 builder.Services.AddTransient<IQueryExecutor, QueryExecutor>();
 builder.Services.AddTransient<ICommandExecutor, CommandExecutor>();
@@ -52,6 +57,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+app.UseAuthentication();
 
 app.MapControllers();
 
