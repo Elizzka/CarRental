@@ -1,4 +1,5 @@
-﻿using CarRental.ApplicationServices.API.Domain.UserReqAndResp;
+﻿using CarRental.ApplicationServices.API.Domain.CarsReqAndResp;
+using CarRental.ApplicationServices.API.Domain.UserReqAndResp;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -23,6 +24,12 @@ namespace CarRental.Controllers
             return this.HandleRequest<GetUsersRequest, GetUsersResponse>(request);
         }
 
-        //  [AllowAnonymous]
+        [AllowAnonymous]
+        [HttpPost]
+        [Route("")]
+        public Task<IActionResult> CreateUser([FromBody] CreateUserRequest request)
+        {
+            return this.HandleRequest<CreateUserRequest, CreateUserResponse>(request);
+        }
     }
 }

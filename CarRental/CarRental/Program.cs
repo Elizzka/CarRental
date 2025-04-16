@@ -43,21 +43,26 @@ builder.Services.AddMediatR(typeof(ResponseBase<>).Assembly);
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddDbContext<CarRentalStorageContext>(
     opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("CarRentalDatabaseConnection")));
-
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "CarRental", Version = "v1" });
+});
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CarRental v1"));
 }
 
 app.UseHttpsRedirection();
-
-app.UseAuthorization();
+app.UseRouting();
 app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllers();
 

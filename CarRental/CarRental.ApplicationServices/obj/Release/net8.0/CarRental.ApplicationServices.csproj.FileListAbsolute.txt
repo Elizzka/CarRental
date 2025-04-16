@@ -1,0 +1,16 @@
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\bin\Release\net8.0\CarRental.ApplicationServices.deps.json
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\bin\Release\net8.0\CarRental.ApplicationServices.dll
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\bin\Release\net8.0\CarRental.ApplicationServices.pdb
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\bin\Release\net8.0\CarRental.DataAccess.dll
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\bin\Release\net8.0\CarRental.DataAccess.pdb
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\obj\Release\net8.0\CarRental.ApplicationServices.csproj.AssemblyReference.cache
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\obj\Release\net8.0\CarRental.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\obj\Release\net8.0\CarRental.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\obj\Release\net8.0\CarRental.ApplicationServices.AssemblyInfo.cs
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\obj\Release\net8.0\CarRental.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\obj\Release\net8.0\CarRental.ApplicationServices.sourcelink.json
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\obj\Release\net8.0\CarRenta.990918A6.Up2Date
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\obj\Release\net8.0\CarRental.ApplicationServices.dll
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\obj\Release\net8.0\refint\CarRental.ApplicationServices.dll
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\obj\Release\net8.0\CarRental.ApplicationServices.pdb
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental.ApplicationServices\obj\Release\net8.0\ref\CarRental.ApplicationServices.dll

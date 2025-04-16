@@ -150,3 +150,1250 @@ DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 2025-04-11 12:31:37.7153 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSEFCAMR4" sending FIN because: "The Socket transport's send loop completed gracefully." 
 2025-04-11 12:31:37.7196 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Http2 | The connection queue processing loop for 0HNBOSEFCAMR4 completed. 
 2025-04-11 12:31:37.7196 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSEFCAMR4" stopped. 
+2025-04-11 12:39:06.0298 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-04-11 12:39:06.1203 | DEBUG | Microsoft.Extensions.Hosting.Internal.Host | Hosting starting 
+2025-04-11 12:39:06.1614 | INFO | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | User profile is available. Using 'C:\Users\elizz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-04-11 12:39:06.1614 | DEBUG | Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository | Reading data from file 'C:\Users\elizz\AppData\Local\ASP.NET\DataProtection-Keys\key-2ecccfa8-3bb9-4395-8742-1987322aa0e1.xml'. 
+2025-04-11 12:39:06.1809 | DEBUG | Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository | Reading data from file 'C:\Users\elizz\AppData\Local\ASP.NET\DataProtection-Keys\key-6601c619-e98f-4730-94cd-33e7ae3916a5.xml'. 
+2025-04-11 12:39:06.1809 | DEBUG | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | Found key {2ecccfa8-3bb9-4395-8742-1987322aa0e1}. 
+2025-04-11 12:39:06.1928 | DEBUG | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | Found key {6601c619-e98f-4730-94cd-33e7ae3916a5}. 
+2025-04-11 12:39:06.2034 | DEBUG | Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver | Considering key {6601c619-e98f-4730-94cd-33e7ae3916a5} with expiration date 2025-06-22 15:33:20Z as default key. 
+2025-04-11 12:39:06.2034 | DEBUG | Microsoft.AspNetCore.DataProtection.TypeForwardingActivator | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-04-11 12:39:06.2034 | DEBUG | Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor | Decrypting secret element using Windows DPAPI. 
+2025-04-11 12:39:06.2034 | DEBUG | Microsoft.AspNetCore.DataProtection.TypeForwardingActivator | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-04-11 12:39:06.2034 | DEBUG | Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-04-11 12:39:06.2161 | DEBUG | Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-04-11 12:39:06.2161 | DEBUG | Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider | Using key {6601c619-e98f-4730-94cd-33e7ae3916a5} as the default key. 
+2025-04-11 12:39:06.2161 | DEBUG | Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService | Key ring with default key {6601c619-e98f-4730-94cd-33e7ae3916a5} was loaded during application startup. 
+2025-04-11 12:39:06.4735 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256 
+2025-04-11 12:39:06.4735 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031 
+2025-04-11 12:39:06.4735 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly CarRental 
+2025-04-11 12:39:06.4735 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-04-11 12:39:06.4735 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-04-11 12:39:06.4735 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-04-11 12:39:06.6068 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-04-11 12:39:06.6068 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-04-11 12:39:06.6099 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental 
+2025-04-11 12:39:06.6099 | DEBUG | Microsoft.Extensions.Hosting.Internal.Host | Hosting started 
+2025-04-11 12:39:06.6476 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOA" accepted. 
+2025-04-11 12:39:06.6476 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOA" started. 
+2025-04-11 12:39:06.6476 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOB" accepted. 
+2025-04-11 12:39:06.6476 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOB" started. 
+2025-04-11 12:39:07.4574 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOC" accepted. 
+2025-04-11 12:39:07.4574 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOC" started. 
+2025-04-11 12:39:08.3673 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Connection 0HNBOSKAU4GOC established using the following protocol: Tls12 
+2025-04-11 12:39:08.4314 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-04-11 12:39:08.4402 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-04-11 12:39:08.4402 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-04-11 12:39:08.4402 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-04-11 12:39:08.4402 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-04-11 12:39:08.4402 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received HEADERS frame for stream ID 3 with length 304 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 12:39:08.4731 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received WINDOW_UPDATE frame for stream ID 3 with length 4 and flags 0x0. 
+2025-04-11 12:39:08.4731 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-04-11 12:39:08.5146 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/swagger/index.html - - - 
+2025-04-11 12:39:08.7716 | DEBUG | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | Wildcard detected, all requests with hosts will be allowed. 
+2025-04-11 12:39:08.7716 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:39:08.8095 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/index.html' 
+2025-04-11 12:39:08.8095 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2025-04-11 12:39:08.9623 | DEBUG | Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware | Response markup is scheduled to include Browser Link script injection. 
+2025-04-11 12:39:08.9623 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware | Response markup is scheduled to include browser refresh script injection. 
+2025-04-11 12:39:08.9623 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending HEADERS frame for stream ID 3 with length 66 and flags END_HEADERS. 
+2025-04-11 12:39:08.9795 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 3 with length 4096 and flags NONE. 
+2025-04-11 12:39:08.9950 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 3 with length 1002 and flags NONE. 
+2025-04-11 12:39:08.9950 | DEBUG | Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware | Response markup was updated to include Browser Link script injection. 
+2025-04-11 12:39:08.9950 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware | Response markup was updated to include browser refresh script injection. 
+2025-04-11 12:39:09.0013 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2025-04-11 12:39:09.0013 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/swagger/index.html - 200 - text/html;charset=utf-8 509.0234ms 
+2025-04-11 12:39:09.0613 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received HEADERS frame for stream ID 5 with length 90 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 12:39:09.0613 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received WINDOW_UPDATE frame for stream ID 5 with length 4 and flags 0x0. 
+2025-04-11 12:39:09.0613 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received HEADERS frame for stream ID 7 with length 49 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 12:39:09.0613 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received WINDOW_UPDATE frame for stream ID 7 with length 4 and flags 0x0. 
+2025-04-11 12:39:09.1171 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 
+2025-04-11 12:39:09.1171 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 
+2025-04-11 12:39:09.1300 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending HEADERS frame for stream ID 7 with length 60 and flags END_HEADERS. 
+2025-04-11 12:39:09.1300 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 7 with length 13754 and flags NONE. 
+2025-04-11 12:39:09.1300 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript;+charset=utf-8 14.1610ms 
+2025-04-11 12:39:09.1300 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2025-04-11 12:39:09.2331 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending HEADERS frame for stream ID 5 with length 119 and flags END_HEADERS. 
+2025-04-11 12:39:09.2331 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 9986 and flags NONE. 
+2025-04-11 12:39:09.2331 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2331 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2331 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2331 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2331 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2331 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2331 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2331 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2331 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2331 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2492 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2492 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2492 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2492 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2025-04-11 12:39:09.2492 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 160 and flags NONE. 
+2025-04-11 12:39:09.2492 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 137.6794ms 
+2025-04-11 12:39:09.2492 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2025-04-11 12:39:09.3642 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received HEADERS frame for stream ID 9 with length 71 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 12:39:09.3642 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received WINDOW_UPDATE frame for stream ID 9 with length 4 and flags 0x0. 
+2025-04-11 12:39:09.3642 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/swagger/v1/swagger.json - - - 
+2025-04-11 12:39:09.3642 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:39:09.3642 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-04-11 12:39:09.3642 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2025-04-11 12:39:09.6006 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending HEADERS frame for stream ID 9 with length 65 and flags END_HEADERS. 
+2025-04-11 12:39:09.6006 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 9 with length 12404 and flags NONE. 
+2025-04-11 12:39:09.6006 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 244.1787ms 
+2025-04-11 12:39:09.6006 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2025-04-11 12:39:16.7268 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Authentication of the HTTPS connection timed out. 
+2025-04-11 12:39:16.7268 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Authentication of the HTTPS connection timed out. 
+2025-04-11 12:39:16.7382 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOA" stopped. 
+2025-04-11 12:39:16.7382 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOB" stopped. 
+2025-04-11 12:39:16.7382 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOB" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 12:39:16.7382 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOA" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 12:39:17.5758 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received HEADERS frame for stream ID 11 with length 30 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 12:39:17.5758 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received WINDOW_UPDATE frame for stream ID 11 with length 4 and flags 0x0. 
+2025-04-11 12:39:17.5758 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/Users - - - 
+2025-04-11 12:39:17.5758 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:39:17.5885 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 12:39:17.5973 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 12:39:17.5973 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 12:39:17.5973 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 12:39:17.5973 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 12:39:17.5973 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 12:39:17.6138 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 12:39:17.7831 | DEBUG | Microsoft.EntityFrameworkCore.Infrastructure | An 'IServiceProvider' was created for internal use by Entity Framework. 
+2025-04-11 12:39:17.8134 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 12:39:17.8134 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending HEADERS frame for stream ID 11 with length 41 and flags END_STREAM, END_HEADERS. 
+2025-04-11 12:39:17.8134 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/Users - 401 0 - 239.4813ms 
+2025-04-11 12:39:37.6558 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOD" accepted. 
+2025-04-11 12:39:37.6621 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOD" started. 
+2025-04-11 12:39:37.6621 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOD" received FIN. 
+2025-04-11 12:39:37.6621 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOE" accepted. 
+2025-04-11 12:39:37.6621 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOE" started. 
+2025-04-11 12:39:37.6902 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-11 12:39:37.7097 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Connection 0HNBOSKAU4GOE established using the following protocol: Tls12 
+2025-04-11 12:39:37.7324 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOD" stopped. 
+2025-04-11 12:39:37.7324 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOD" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 12:39:37.7388 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 12:39:37.7388 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:39:37.7388 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 12:39:37.7388 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 12:39:37.7388 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 12:39:37.7388 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 12:39:37.7388 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 12:39:37.7388 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 12:39:37.7388 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 12:39:37.7388 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 12:39:37.7611 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOE" completed keep alive response. 
+2025-04-11 12:39:37.7611 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 401 0 - 22.8616ms 
+2025-04-11 12:40:16.0343 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-04-11 12:40:16.0343 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-04-11 12:40:57.0392 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOF" received FIN. 
+2025-04-11 12:40:57.0392 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOF" accepted. 
+2025-04-11 12:40:57.0392 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOF" started. 
+2025-04-11 12:40:57.0392 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOG" accepted. 
+2025-04-11 12:40:57.0471 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-11 12:40:57.0471 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOG" started. 
+2025-04-11 12:40:57.0471 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOF" stopped. 
+2025-04-11 12:40:57.0471 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOF" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 12:40:57.0471 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Connection 0HNBOSKAU4GOG established using the following protocol: Tls12 
+2025-04-11 12:40:57.0471 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 12:40:57.0471 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:40:57.0471 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 12:40:57.0471 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 12:40:57.0471 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 12:40:57.0471 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 12:40:57.0471 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 12:40:57.0639 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 12:40:57.0639 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 12:40:57.0639 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 12:40:57.0639 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOG" completed keep alive response. 
+2025-04-11 12:40:57.0639 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 401 0 - 12.1492ms 
+2025-04-11 12:41:02.0596 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 12:41:02.0596 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:41:02.0596 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 12:41:02.0596 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 12:41:02.0596 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 12:41:02.0602 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 12:41:02.0602 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 12:41:02.0602 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 12:41:02.0602 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 12:41:02.0602 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 12:41:02.0602 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOG" completed keep alive response. 
+2025-04-11 12:41:02.0602 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 401 0 - 1.9033ms 
+2025-04-11 12:41:14.0768 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-04-11 12:41:14.0768 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-04-11 12:42:08.3185 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOC" received FIN. 
+2025-04-11 12:42:08.3283 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" received GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2025-04-11 12:42:08.3283 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOC" is closed. The last processed stream ID was 11. 
+2025-04-11 12:42:08.3283 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Http2 | The connection queue processing loop for 0HNBOSKAU4GOC completed. 
+2025-04-11 12:42:08.3283 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOC" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 12:42:08.3408 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOC" stopped. 
+2025-04-11 12:47:10.8907 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOH" received FIN. 
+2025-04-11 12:47:10.9699 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOH" accepted. 
+2025-04-11 12:47:10.9699 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOH" started. 
+2025-04-11 12:47:10.9699 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOI" accepted. 
+2025-04-11 12:47:10.9839 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOI" started. 
+2025-04-11 12:47:10.9839 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-11 12:47:10.9839 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOH" stopped. 
+2025-04-11 12:47:10.9839 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOH" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 12:47:11.0003 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Connection 0HNBOSKAU4GOI established using the following protocol: Tls12 
+2025-04-11 12:47:11.0003 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 12:47:11.0003 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:47:11.0003 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 12:47:11.0003 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 12:47:11.0003 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 12:47:11.0003 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 12:47:11.0003 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 12:47:11.0003 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 12:47:11.0003 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 12:47:11.0003 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 12:47:11.0003 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOI" completed keep alive response. 
+2025-04-11 12:47:11.0003 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 401 0 - 4.0845ms 
+2025-04-11 12:47:57.0394 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 12:47:57.0394 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:47:57.0394 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 12:47:57.0394 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 12:47:57.0394 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 12:47:57.0394 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 12:47:57.0394 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 12:47:57.0394 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 12:47:57.0394 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 12:47:57.0394 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 12:47:57.0394 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOI" completed keep alive response. 
+2025-04-11 12:47:57.0394 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 401 0 - 1.9904ms 
+2025-04-11 12:48:00.6886 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 12:48:00.6886 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:48:00.6886 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 12:48:00.6886 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 12:48:00.6886 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 12:48:00.6886 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 12:48:00.6886 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 12:48:00.6886 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 12:48:00.6896 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 12:48:00.6896 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 12:48:00.6896 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOI" completed keep alive response. 
+2025-04-11 12:48:00.6896 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 401 0 - 3.0204ms 
+2025-04-11 12:48:48.5813 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOJ" accepted. 
+2025-04-11 12:48:48.5845 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOJ" started. 
+2025-04-11 12:48:48.6193 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Connection 0HNBOSKAU4GOJ established using the following protocol: Tls12 
+2025-04-11 12:48:48.6246 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-04-11 12:48:48.6246 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-04-11 12:48:48.6246 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-04-11 12:48:48.6246 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-04-11 12:48:48.6246 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-04-11 12:48:48.6246 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" received HEADERS frame for stream ID 3 with length 243 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 12:48:48.6246 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" received WINDOW_UPDATE frame for stream ID 3 with length 4 and flags 0x0. 
+2025-04-11 12:48:48.6246 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-04-11 12:48:48.6246 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/Users - - - 
+2025-04-11 12:48:48.6246 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:48:48.6246 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 12:48:48.6246 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 12:48:48.6246 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 12:48:48.6246 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 12:48:48.6246 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 12:48:48.6246 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 12:48:48.6246 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 12:48:48.6246 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 12:48:48.6246 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/Users - 401 0 - 1.4940ms 
+2025-04-11 12:48:48.6246 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" sending HEADERS frame for stream ID 3 with length 49 and flags END_STREAM, END_HEADERS. 
+2025-04-11 12:49:00.0429 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 12:49:00.0429 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:49:00.0429 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 12:49:00.0429 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 12:49:00.0429 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 12:49:00.0429 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 12:49:00.0429 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 12:49:00.0429 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 12:49:00.0429 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 12:49:00.0429 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 12:49:00.0429 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOI" completed keep alive response. 
+2025-04-11 12:49:00.0429 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 401 0 - 5.0100ms 
+2025-04-11 12:49:19.6060 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 12:49:19.6060 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:49:19.6060 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 12:49:19.6060 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 12:49:19.6060 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 12:49:19.6060 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 12:49:19.6060 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 12:49:19.6060 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 12:49:19.6060 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 12:49:19.6060 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 12:49:19.6060 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOI" completed keep alive response. 
+2025-04-11 12:49:19.6060 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 401 0 - 2.6892ms 
+2025-04-11 12:49:47.1519 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-04-11 12:49:47.1786 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-04-11 12:50:45.9737 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-04-11 12:50:45.9737 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-04-11 12:51:39.5180 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOJ" received FIN. 
+2025-04-11 12:51:39.5180 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" is closed. The last processed stream ID was 3. 
+2025-04-11 12:51:39.5180 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOJ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 12:51:39.5180 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOSKAU4GOJ" received GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2025-04-11 12:51:39.5180 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Http2 | The connection queue processing loop for 0HNBOSKAU4GOJ completed. 
+2025-04-11 12:51:39.5180 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOJ" stopped. 
+2025-04-11 12:56:44.8924 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOK" received FIN. 
+2025-04-11 12:56:44.8924 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOK" accepted. 
+2025-04-11 12:56:44.8924 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOL" accepted. 
+2025-04-11 12:56:44.8924 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOK" started. 
+2025-04-11 12:56:44.8924 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOL" started. 
+2025-04-11 12:56:44.8924 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-11 12:56:44.8924 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOK" stopped. 
+2025-04-11 12:56:44.8924 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOSKAU4GOK" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 12:56:44.9103 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Connection 0HNBOSKAU4GOL established using the following protocol: Tls12 
+2025-04-11 12:56:44.9103 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 12:56:44.9103 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:56:44.9103 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 12:56:44.9103 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 12:56:44.9103 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 12:56:44.9103 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 12:56:44.9103 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 12:56:44.9103 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 12:56:44.9103 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 12:56:44.9103 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 12:56:44.9103 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOL" completed keep alive response. 
+2025-04-11 12:56:44.9103 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 401 0 - 1.5624ms 
+2025-04-11 12:56:50.5192 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 12:56:50.5192 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 12:56:50.5192 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 12:56:50.5192 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 12:56:50.5192 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 12:56:50.5192 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 12:56:50.5192 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 12:56:50.5192 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 12:56:50.5192 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 12:56:50.5192 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 12:56:50.5192 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOSKAU4GOL" completed keep alive response. 
+2025-04-11 12:56:50.5192 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 401 0 - 2.3819ms 
+2025-04-11 13:00:04.1006 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-04-11 13:00:04.2466 | DEBUG | Microsoft.Extensions.Hosting.Internal.Host | Hosting starting 
+2025-04-11 13:00:04.2980 | INFO | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | User profile is available. Using 'C:\Users\elizz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-04-11 13:00:04.3147 | DEBUG | Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository | Reading data from file 'C:\Users\elizz\AppData\Local\ASP.NET\DataProtection-Keys\key-2ecccfa8-3bb9-4395-8742-1987322aa0e1.xml'. 
+2025-04-11 13:00:04.3189 | DEBUG | Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository | Reading data from file 'C:\Users\elizz\AppData\Local\ASP.NET\DataProtection-Keys\key-6601c619-e98f-4730-94cd-33e7ae3916a5.xml'. 
+2025-04-11 13:00:04.3189 | DEBUG | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | Found key {2ecccfa8-3bb9-4395-8742-1987322aa0e1}. 
+2025-04-11 13:00:04.3331 | DEBUG | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | Found key {6601c619-e98f-4730-94cd-33e7ae3916a5}. 
+2025-04-11 13:00:04.3494 | DEBUG | Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver | Considering key {6601c619-e98f-4730-94cd-33e7ae3916a5} with expiration date 2025-06-22 15:33:20Z as default key. 
+2025-04-11 13:00:04.3494 | DEBUG | Microsoft.AspNetCore.DataProtection.TypeForwardingActivator | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-04-11 13:00:04.3604 | DEBUG | Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor | Decrypting secret element using Windows DPAPI. 
+2025-04-11 13:00:04.3604 | DEBUG | Microsoft.AspNetCore.DataProtection.TypeForwardingActivator | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-04-11 13:00:04.3604 | DEBUG | Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-04-11 13:00:04.3604 | DEBUG | Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-04-11 13:00:04.3604 | DEBUG | Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider | Using key {6601c619-e98f-4730-94cd-33e7ae3916a5} as the default key. 
+2025-04-11 13:00:04.3604 | DEBUG | Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService | Key ring with default key {6601c619-e98f-4730-94cd-33e7ae3916a5} was loaded during application startup. 
+2025-04-11 13:00:04.7063 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256 
+2025-04-11 13:00:04.7063 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031 
+2025-04-11 13:00:04.7063 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly CarRental 
+2025-04-11 13:00:04.7063 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-04-11 13:00:04.7063 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-04-11 13:00:04.7063 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-04-11 13:00:04.8884 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-04-11 13:00:04.8884 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-04-11 13:00:04.8884 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental 
+2025-04-11 13:00:04.8884 | DEBUG | Microsoft.Extensions.Hosting.Internal.Host | Hosting started 
+2025-04-11 13:00:05.1383 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOT0201D9J" received FIN. 
+2025-04-11 13:00:05.1491 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOT0201D9J" accepted. 
+2025-04-11 13:00:05.1491 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOT0201D9J" started. 
+2025-04-11 13:00:05.1931 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-11 13:00:05.3291 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOT0201D9J" stopped. 
+2025-04-11 13:00:05.3532 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOT0201D9J" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 13:00:05.6339 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOT0201D9K" accepted. 
+2025-04-11 13:00:05.6339 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOT0201D9K" started. 
+2025-04-11 13:00:05.7203 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Connection 0HNBOT0201D9K established using the following protocol: Tls12 
+2025-04-11 13:00:05.7828 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-04-11 13:00:05.7828 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-04-11 13:00:05.7828 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-04-11 13:00:05.7828 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-04-11 13:00:05.7828 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-04-11 13:00:05.7828 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received HEADERS frame for stream ID 3 with length 304 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 13:00:05.8131 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received WINDOW_UPDATE frame for stream ID 3 with length 4 and flags 0x0. 
+2025-04-11 13:00:05.8131 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-04-11 13:00:05.8461 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/swagger/index.html - - - 
+2025-04-11 13:00:06.0048 | DEBUG | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | Wildcard detected, all requests with hosts will be allowed. 
+2025-04-11 13:00:06.0048 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 13:00:06.0388 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/index.html' 
+2025-04-11 13:00:06.0388 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2025-04-11 13:00:06.1951 | DEBUG | Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware | Response markup is scheduled to include Browser Link script injection. 
+2025-04-11 13:00:06.1951 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware | Response markup is scheduled to include browser refresh script injection. 
+2025-04-11 13:00:06.1951 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending HEADERS frame for stream ID 3 with length 66 and flags END_HEADERS. 
+2025-04-11 13:00:06.2153 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 3 with length 4096 and flags NONE. 
+2025-04-11 13:00:06.2253 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 3 with length 1002 and flags NONE. 
+2025-04-11 13:00:06.2253 | DEBUG | Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware | Response markup was updated to include Browser Link script injection. 
+2025-04-11 13:00:06.2253 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware | Response markup was updated to include browser refresh script injection. 
+2025-04-11 13:00:06.2253 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/swagger/index.html - 200 - text/html;charset=utf-8 402.6080ms 
+2025-04-11 13:00:06.2422 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2025-04-11 13:00:06.3081 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received HEADERS frame for stream ID 5 with length 108 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 13:00:06.3081 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received WINDOW_UPDATE frame for stream ID 5 with length 4 and flags 0x0. 
+2025-04-11 13:00:06.3081 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received HEADERS frame for stream ID 7 with length 55 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 13:00:06.3081 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received WINDOW_UPDATE frame for stream ID 7 with length 4 and flags 0x0. 
+2025-04-11 13:00:06.3183 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 
+2025-04-11 13:00:06.3183 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 
+2025-04-11 13:00:06.3183 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS. 
+2025-04-11 13:00:06.3183 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 5 with length 13754 and flags NONE. 
+2025-04-11 13:00:06.3183 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript;+charset=utf-8 9.2510ms 
+2025-04-11 13:00:06.3183 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2025-04-11 13:00:06.3671 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending HEADERS frame for stream ID 7 with length 119 and flags END_HEADERS. 
+2025-04-11 13:00:06.3671 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 9986 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 160 and flags NONE. 
+2025-04-11 13:00:06.3738 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2025-04-11 13:00:06.3738 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 67.5730ms 
+2025-04-11 13:00:06.5963 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received HEADERS frame for stream ID 9 with length 71 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 13:00:06.5963 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received WINDOW_UPDATE frame for stream ID 9 with length 4 and flags 0x0. 
+2025-04-11 13:00:06.6204 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/swagger/v1/swagger.json - - - 
+2025-04-11 13:00:06.6204 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 13:00:06.6204 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-04-11 13:00:06.6204 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2025-04-11 13:00:06.8577 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending HEADERS frame for stream ID 9 with length 65 and flags END_HEADERS. 
+2025-04-11 13:00:06.8577 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 9 with length 12404 and flags NONE. 
+2025-04-11 13:00:06.8634 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2025-04-11 13:00:06.8634 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 243.2174ms 
+2025-04-11 13:00:15.6329 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received HEADERS frame for stream ID 11 with length 30 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 13:00:15.6329 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" received WINDOW_UPDATE frame for stream ID 11 with length 4 and flags 0x0. 
+2025-04-11 13:00:15.6329 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/Users - - - 
+2025-04-11 13:00:15.6329 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 13:00:15.6428 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 13:00:15.6428 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 13:00:15.6428 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 13:00:15.6428 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 13:00:15.6428 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 13:00:15.9346 | DEBUG | Microsoft.EntityFrameworkCore.Infrastructure | An 'IServiceProvider' was created for internal use by Entity Framework. 
+2025-04-11 13:00:15.9796 | INFO | CarRental.Authentication.BasicAuthenticationHandler | BasicAuthentication was not authenticated. Failure message: Missing Authorization Header 
+2025-04-11 13:00:15.9891 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 13:00:15.9891 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 13:00:15.9891 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 13:00:15.9991 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOT0201D9K" sending HEADERS frame for stream ID 11 with length 41 and flags END_STREAM, END_HEADERS. 
+2025-04-11 13:00:15.9991 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/Users - 401 0 - 365.4827ms 
+2025-04-11 13:00:23.7889 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOT0201D9L" accepted. 
+2025-04-11 13:00:23.7889 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOT0201D9L" received FIN. 
+2025-04-11 13:00:23.7889 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOT0201D9M" accepted. 
+2025-04-11 13:00:23.7889 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOT0201D9L" started. 
+2025-04-11 13:00:23.7889 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOT0201D9M" started. 
+2025-04-11 13:00:23.7889 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-11 13:00:23.7889 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOT0201D9L" stopped. 
+2025-04-11 13:00:23.7964 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOT0201D9L" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 13:00:23.7964 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Connection 0HNBOT0201D9M established using the following protocol: Tls12 
+2025-04-11 13:00:23.7964 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 13:00:23.7964 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 13:00:23.7964 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 13:00:23.7964 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 13:00:23.7964 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 13:00:23.7964 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 13:00:23.7964 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 13:00:24.8122 | DEBUG | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 9.0.3 initialized 'CarRentalStorageContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.3' with options: EngineType=SqlServer  
+2025-04-11 13:00:24.9032 | DEBUG | Microsoft.EntityFrameworkCore.Query | Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(x => x.Username == __Username_0)' 
+2025-04-11 13:00:25.3527 | DEBUG | Microsoft.EntityFrameworkCore.Query | Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.FirstName (string) Required, 1], [Property: User.LastName (string) Required, 2], [Property: User.Password (string) Required, 3], [Property: User.Username (string) Required, 4] }
+            SELECT TOP(1) u.Id, u.FirstName, u.LastName, u.Password, u.Username
+            FROM Users AS u
+            WHERE u.Username == @__Username_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.FirstName (string) Required, 1], [Property: User.LastName (string) Required, 2], [Property: User.Password (string) Required, 3], [Property: User.Username (string) Required, 4] }
+            SELECT TOP(1) u.Id, u.FirstName, u.LastName, u.Password, u.Username
+            FROM Users AS u
+            WHERE u.Username == @__Username_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                    instance.<FirstName>k__BackingField = dataReader.GetString(1);
+                                    instance.<LastName>k__BackingField = dataReader.GetString(2);
+                                    instance.<Password>k__BackingField = dataReader.GetString(3);
+                                    instance.<Username>k__BackingField = dataReader.GetString(4);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: CarRental.DataAccess.CarRentalStorageContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)' 
+2025-04-11 13:00:25.4097 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Creating DbConnection. 
+2025-04-11 13:00:25.4452 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Created DbConnection. (34ms). 
+2025-04-11 13:00:25.4452 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opening connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:00:25.8582 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opened connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:00:25.8633 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Creating DbCommand for 'ExecuteReader'. 
+2025-04-11 13:00:25.8633 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Created DbCommand for 'ExecuteReader' (6ms). 
+2025-04-11 13:00:25.8869 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Initialized DbCommand for 'ExecuteReader' (24ms). 
+2025-04-11 13:00:25.8992 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Executing DbCommand [Parameters=[@__Username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__Username_0 
+2025-04-11 13:00:26.0177 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (120ms) [Parameters=[@__Username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__Username_0 
+2025-04-11 13:00:26.0764 | DEBUG | Microsoft.EntityFrameworkCore.ChangeTracking | Context 'CarRentalStorageContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-04-11 13:00:26.1046 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Closing data reader to 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:00:26.1149 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | A data reader for 'CarRentalStorage' on server '.\SQLEXPRESS01' is being disposed after spending 91ms reading results. 
+2025-04-11 13:00:26.1149 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closing connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:00:26.1253 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closed connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01' (6ms). 
+2025-04-11 13:00:26.1253 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated. 
+2025-04-11 13:00:26.1253 | DEBUG | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization was successful. 
+2025-04-11 13:00:26.1253 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 13:00:26.1815 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest) on controller CarRental.Controllers.UsersController (CarRental). 
+2025-04-11 13:00:26.1815 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of authorization filters (in the following order): None 
+2025-04-11 13:00:26.1815 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of resource filters (in the following order): None 
+2025-04-11 13:00:26.1815 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2025-04-11 13:00:26.1815 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of exception filters (in the following order): None 
+2025-04-11 13:00:26.1815 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-04-11 13:00:26.1876 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executing controller factory for controller CarRental.Controllers.UsersController (CarRental) 
+2025-04-11 13:00:26.1876 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed controller factory for controller CarRental.Controllers.UsersController (CarRental) 
+2025-04-11 13:00:26.2088 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder | Attempting to bind parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest' ... 
+2025-04-11 13:00:26.2088 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder | Attempting to bind parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest' using the name '' in request data ... 
+2025-04-11 13:00:26.2088 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder | Done attempting to bind parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest'. 
+2025-04-11 13:00:26.2088 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder | Done attempting to bind parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest'. 
+2025-04-11 13:00:26.2088 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder | Attempting to validate the bound parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest' ... 
+2025-04-11 13:00:26.2573 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder | Done attempting to validate the bound parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest'. 
+2025-04-11 13:00:26.2573 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-04-11 13:00:26.2573 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-04-11 13:00:26.2739 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executing action method CarRental.Controllers.UsersController.GetAll (CarRental) - Validation state: Valid 
+2025-04-11 13:00:26.2739 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executing action method CarRental.Controllers.UsersController.GetAll (CarRental) with arguments (CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest) 
+2025-04-11 13:00:26.4472 | DEBUG | Microsoft.EntityFrameworkCore.Query | Compiling query expression: 
+'DbSet<User>()' 
+2025-04-11 13:00:26.4472 | DEBUG | Microsoft.EntityFrameworkCore.Query | Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<User>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.FirstName (string) Required, 1], [Property: User.LastName (string) Required, 2], [Property: User.Password (string) Required, 3], [Property: User.Username (string) Required, 4] }
+        SELECT u.Id, u.FirstName, u.LastName, u.Password, u.Username
+        FROM Users AS u) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.FirstName (string) Required, 1], [Property: User.LastName (string) Required, 2], [Property: User.Password (string) Required, 3], [Property: User.Username (string) Required, 4] }
+        SELECT u.Id, u.FirstName, u.LastName, u.Password, u.Username
+        FROM Users AS u, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        User entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            User instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(User);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (User)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User")]: 
+                        {
+                            return 
+                            {
+                                User instance;
+                                instance = new User();
+                                instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                instance.<FirstName>k__BackingField = dataReader.GetString(1);
+                                instance.<LastName>k__BackingField = dataReader.GetString(2);
+                                instance.<Password>k__BackingField = dataReader.GetString(3);
+                                instance.<Username>k__BackingField = dataReader.GetString(4);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(User)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: CarRental.DataAccess.CarRentalStorageContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)' 
+2025-04-11 13:00:26.4537 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opening connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:00:26.4537 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opened connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:00:26.4537 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Creating DbCommand for 'ExecuteReader'. 
+2025-04-11 13:00:26.4537 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Created DbCommand for 'ExecuteReader' (0ms). 
+2025-04-11 13:00:26.4537 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-04-11 13:00:26.4537 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u] 
+2025-04-11 13:00:26.4773 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u] 
+2025-04-11 13:00:26.4773 | DEBUG | Microsoft.EntityFrameworkCore.ChangeTracking | Context 'CarRentalStorageContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-04-11 13:00:26.4773 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Closing data reader to 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:00:26.4773 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | A data reader for 'CarRentalStorage' on server '.\SQLEXPRESS01' is being disposed after spending 4ms reading results. 
+2025-04-11 13:00:26.4773 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closing connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:00:26.4773 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closed connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01' (0ms). 
+2025-04-11 13:00:26.5180 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action method CarRental.Controllers.UsersController.GetAll (CarRental), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 236.2526ms. 
+2025-04-11 13:00:26.5197 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-04-11 13:00:26.5197 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-04-11 13:00:26.5197 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-04-11 13:00:26.5197 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-04-11 13:00:26.5197 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-04-11 13:00:26.5197 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-04-11 13:00:26.5197 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | No information found on request to perform content negotiation. 
+2025-04-11 13:00:26.5197 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-04-11 13:00:26.5197 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-04-11 13:00:26.5197 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-04-11 13:00:26.5197 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersResponse'. 
+2025-04-11 13:00:26.5596 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-04-11 13:00:26.5596 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-04-11 13:00:26.5596 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-04-11 13:00:26.5660 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action CarRental.Controllers.UsersController.GetAll (CarRental) in 376.7703ms 
+2025-04-11 13:00:26.5660 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 13:00:26.5660 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOT0201D9M" completed keep alive response. 
+2025-04-11 13:00:26.5660 | DEBUG | Microsoft.EntityFrameworkCore.Infrastructure | 'CarRentalStorageContext' disposed. 
+2025-04-11 13:00:26.5660 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Disposing connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:00:26.5660 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Disposed connection to database '' on server '' (1ms). 
+2025-04-11 13:00:26.5780 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 200 - application/json;+charset=utf-8 2767.6719ms 
+2025-04-11 13:43:55.0074 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory | Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2025-04-11 13:43:55.1186 | DEBUG | Microsoft.Extensions.Hosting.Internal.Host | Hosting starting 
+2025-04-11 13:43:55.1654 | INFO | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | User profile is available. Using 'C:\Users\elizz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-04-11 13:43:55.1760 | DEBUG | Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository | Reading data from file 'C:\Users\elizz\AppData\Local\ASP.NET\DataProtection-Keys\key-2ecccfa8-3bb9-4395-8742-1987322aa0e1.xml'. 
+2025-04-11 13:43:55.1760 | DEBUG | Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository | Reading data from file 'C:\Users\elizz\AppData\Local\ASP.NET\DataProtection-Keys\key-6601c619-e98f-4730-94cd-33e7ae3916a5.xml'. 
+2025-04-11 13:43:55.1974 | DEBUG | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | Found key {2ecccfa8-3bb9-4395-8742-1987322aa0e1}. 
+2025-04-11 13:43:55.2093 | DEBUG | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager | Found key {6601c619-e98f-4730-94cd-33e7ae3916a5}. 
+2025-04-11 13:43:55.2202 | DEBUG | Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver | Considering key {6601c619-e98f-4730-94cd-33e7ae3916a5} with expiration date 2025-06-22 15:33:20Z as default key. 
+2025-04-11 13:43:55.2202 | DEBUG | Microsoft.AspNetCore.DataProtection.TypeForwardingActivator | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-04-11 13:43:55.2202 | DEBUG | Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor | Decrypting secret element using Windows DPAPI. 
+2025-04-11 13:43:55.2202 | DEBUG | Microsoft.AspNetCore.DataProtection.TypeForwardingActivator | Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2025-04-11 13:43:55.2202 | DEBUG | Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory | Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2025-04-11 13:43:55.2202 | DEBUG | Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory | Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2025-04-11 13:43:55.2202 | DEBUG | Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider | Using key {6601c619-e98f-4730-94cd-33e7ae3916a5} as the default key. 
+2025-04-11 13:43:55.2202 | DEBUG | Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService | Key ring with default key {6601c619-e98f-4730-94cd-33e7ae3916a5} was loaded during application startup. 
+2025-04-11 13:43:55.7555 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256 
+2025-04-11 13:43:55.7555 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031 
+2025-04-11 13:43:55.7555 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly CarRental 
+2025-04-11 13:43:55.7555 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery 
+2025-04-11 13:43:55.7555 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2025-04-11 13:43:55.7555 | DEBUG | Microsoft.AspNetCore.Hosting.Diagnostics | Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2025-04-11 13:43:55.7806 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOTOHVPO34" received FIN. 
+2025-04-11 13:43:55.7806 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO34" accepted. 
+2025-04-11 13:43:55.7806 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO34" started. 
+2025-04-11 13:43:55.8370 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-11 13:43:56.0274 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO34" stopped. 
+2025-04-11 13:43:56.0345 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOTOHVPO34" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 13:43:56.0668 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down. 
+2025-04-11 13:43:56.0668 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development 
+2025-04-11 13:43:56.0668 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental 
+2025-04-11 13:43:56.0668 | DEBUG | Microsoft.Extensions.Hosting.Internal.Host | Hosting started 
+2025-04-11 13:43:56.2743 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO35" accepted. 
+2025-04-11 13:43:56.2743 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO35" started. 
+2025-04-11 13:43:56.3499 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Connection 0HNBOTOHVPO35 established using the following protocol: Tls12 
+2025-04-11 13:43:56.3934 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-04-11 13:43:56.3934 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-04-11 13:43:56.3934 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2025-04-11 13:43:56.3934 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-04-11 13:43:56.3934 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2025-04-11 13:43:56.3934 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received HEADERS frame for stream ID 3 with length 304 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 13:43:56.4340 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received WINDOW_UPDATE frame for stream ID 3 with length 4 and flags 0x0. 
+2025-04-11 13:43:56.4340 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2025-04-11 13:43:56.4641 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/swagger/index.html - - - 
+2025-04-11 13:43:56.6532 | DEBUG | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | Wildcard detected, all requests with hosts will be allowed. 
+2025-04-11 13:43:56.6534 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 13:43:56.6784 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/index.html' 
+2025-04-11 13:43:56.6784 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2025-04-11 13:43:56.7724 | DEBUG | Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware | Response markup is scheduled to include Browser Link script injection. 
+2025-04-11 13:43:56.7724 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware | Response markup is scheduled to include browser refresh script injection. 
+2025-04-11 13:43:56.7724 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending HEADERS frame for stream ID 3 with length 66 and flags END_HEADERS. 
+2025-04-11 13:43:56.7853 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 3 with length 4096 and flags NONE. 
+2025-04-11 13:43:56.8006 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 3 with length 1002 and flags NONE. 
+2025-04-11 13:43:56.8006 | DEBUG | Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware | Response markup was updated to include Browser Link script injection. 
+2025-04-11 13:43:56.8006 | DEBUG | Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware | Response markup was updated to include browser refresh script injection. 
+2025-04-11 13:43:56.8006 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2025-04-11 13:43:56.8006 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/swagger/index.html - 200 - text/html;charset=utf-8 359.1813ms 
+2025-04-11 13:43:56.8511 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received HEADERS frame for stream ID 5 with length 108 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 13:43:56.8511 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received WINDOW_UPDATE frame for stream ID 5 with length 4 and flags 0x0. 
+2025-04-11 13:43:56.8632 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - - - 
+2025-04-11 13:43:56.8632 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received HEADERS frame for stream ID 7 with length 55 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 13:43:56.8632 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received WINDOW_UPDATE frame for stream ID 7 with length 4 and flags 0x0. 
+2025-04-11 13:43:56.8632 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - - - 
+2025-04-11 13:43:56.8632 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS. 
+2025-04-11 13:43:56.8632 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 5 with length 13754 and flags NONE. 
+2025-04-11 13:43:56.8838 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2025-04-11 13:43:56.8838 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript;+charset=utf-8 21.1128ms 
+2025-04-11 13:43:56.9184 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending HEADERS frame for stream ID 7 with length 119 and flags END_HEADERS. 
+2025-04-11 13:43:56.9184 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 9986 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 10240 and flags NONE. 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 160 and flags NONE. 
+2025-04-11 13:43:56.9247 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 64.2757ms 
+2025-04-11 13:43:56.9247 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2025-04-11 13:43:57.0762 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received HEADERS frame for stream ID 9 with length 71 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 13:43:57.0762 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received WINDOW_UPDATE frame for stream ID 9 with length 4 and flags 0x0. 
+2025-04-11 13:43:57.0762 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/swagger/v1/swagger.json - - - 
+2025-04-11 13:43:57.0762 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 13:43:57.0762 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | No candidates found for the request path '/swagger/v1/swagger.json' 
+2025-04-11 13:43:57.0762 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request did not match any endpoints 
+2025-04-11 13:43:57.2749 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending HEADERS frame for stream ID 9 with length 35 and flags END_HEADERS. 
+2025-04-11 13:43:57.2749 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 9 with length 13626 and flags NONE. 
+2025-04-11 13:43:57.2749 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 201.6355ms 
+2025-04-11 13:43:57.2749 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2025-04-11 13:44:10.0430 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received HEADERS frame for stream ID 11 with length 30 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2025-04-11 13:44:10.0453 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received WINDOW_UPDATE frame for stream ID 11 with length 4 and flags 0x0. 
+2025-04-11 13:44:10.0453 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/2 GET https://localhost:7256/Users - - - 
+2025-04-11 13:44:10.0453 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 13:44:10.0618 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 13:44:10.0618 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 13:44:10.0618 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 13:44:10.0618 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 13:44:10.0618 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 13:44:10.3592 | DEBUG | Microsoft.EntityFrameworkCore.Infrastructure | An 'IServiceProvider' was created for internal use by Entity Framework. 
+2025-04-11 13:44:10.4012 | INFO | CarRental.Authentication.BasicAuthenticationHandler | BasicAuthentication was not authenticated. Failure message: Missing Authorization Header 
+2025-04-11 13:44:10.4076 | DEBUG | Microsoft.AspNetCore.Authorization.AuthorizationMiddleware | Policy authentication schemes  did not succeed 
+2025-04-11 13:44:10.4076 | INFO | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-04-11 13:44:10.4076 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged. 
+2025-04-11 13:44:10.4076 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending HEADERS frame for stream ID 11 with length 41 and flags END_STREAM, END_HEADERS. 
+2025-04-11 13:44:10.4076 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/2 GET https://localhost:7256/Users - 401 0 - 367.0706ms 
+2025-04-11 13:44:22.5250 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO36" accepted. 
+2025-04-11 13:44:22.5250 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOTOHVPO36" received FIN. 
+2025-04-11 13:44:22.5250 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO36" started. 
+2025-04-11 13:44:22.5250 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO37" accepted. 
+2025-04-11 13:44:22.5250 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO37" started. 
+2025-04-11 13:44:22.5250 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-11 13:44:22.5250 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO36" stopped. 
+2025-04-11 13:44:22.5250 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOTOHVPO36" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 13:44:22.5353 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware | Connection 0HNBOTOHVPO37 established using the following protocol: Tls12 
+2025-04-11 13:44:22.5353 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 13:44:22.5353 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 13:44:22.5353 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 13:44:22.5353 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 13:44:22.5353 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 13:44:22.5353 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 13:44:22.5353 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 13:44:23.6039 | DEBUG | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 9.0.3 initialized 'CarRentalStorageContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.3' with options: EngineType=SqlServer  
+2025-04-11 13:44:23.7034 | DEBUG | Microsoft.EntityFrameworkCore.Query | Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(x => x.Username == __Username_0)' 
+2025-04-11 13:44:24.1242 | DEBUG | Microsoft.EntityFrameworkCore.Query | Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.FirstName (string) Required, 1], [Property: User.LastName (string) Required, 2], [Property: User.Password (string) Required MaxLength(30), 3], [Property: User.Username (string) Required, 4] }
+            SELECT TOP(1) u.Id, u.FirstName, u.LastName, u.Password, u.Username
+            FROM Users AS u
+            WHERE u.Username == @__Username_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.FirstName (string) Required, 1], [Property: User.LastName (string) Required, 2], [Property: User.Password (string) Required MaxLength(30), 3], [Property: User.Username (string) Required, 4] }
+            SELECT TOP(1) u.Id, u.FirstName, u.LastName, u.Password, u.Username
+            FROM Users AS u
+            WHERE u.Username == @__Username_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                    instance.<FirstName>k__BackingField = dataReader.GetString(1);
+                                    instance.<LastName>k__BackingField = dataReader.GetString(2);
+                                    instance.<Password>k__BackingField = dataReader.GetString(3);
+                                    instance.<Username>k__BackingField = dataReader.GetString(4);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: CarRental.DataAccess.CarRentalStorageContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)' 
+2025-04-11 13:44:24.1826 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Creating DbConnection. 
+2025-04-11 13:44:24.2090 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Created DbConnection. (26ms). 
+2025-04-11 13:44:24.2090 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opening connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:44:24.6189 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opened connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:44:24.6189 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Creating DbCommand for 'ExecuteReader'. 
+2025-04-11 13:44:24.6323 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Created DbCommand for 'ExecuteReader' (5ms). 
+2025-04-11 13:44:24.6323 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Initialized DbCommand for 'ExecuteReader' (19ms). 
+2025-04-11 13:44:24.6526 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Executing DbCommand [Parameters=[@__Username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__Username_0 
+2025-04-11 13:44:24.7344 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (83ms) [Parameters=[@__Username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__Username_0 
+2025-04-11 13:44:24.8079 | DEBUG | Microsoft.EntityFrameworkCore.ChangeTracking | Context 'CarRentalStorageContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-04-11 13:44:24.8576 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Closing data reader to 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:44:24.8659 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | A data reader for 'CarRentalStorage' on server '.\SQLEXPRESS01' is being disposed after spending 125ms reading results. 
+2025-04-11 13:44:24.8659 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closing connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:44:24.8789 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closed connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01' (7ms). 
+2025-04-11 13:44:24.8789 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated. 
+2025-04-11 13:44:24.8789 | DEBUG | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization was successful. 
+2025-04-11 13:44:24.8886 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 13:44:24.9225 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest) on controller CarRental.Controllers.UsersController (CarRental). 
+2025-04-11 13:44:24.9225 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of authorization filters (in the following order): None 
+2025-04-11 13:44:24.9225 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of resource filters (in the following order): None 
+2025-04-11 13:44:24.9225 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2025-04-11 13:44:24.9225 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of exception filters (in the following order): None 
+2025-04-11 13:44:24.9225 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-04-11 13:44:24.9225 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executing controller factory for controller CarRental.Controllers.UsersController (CarRental) 
+2025-04-11 13:44:24.9225 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed controller factory for controller CarRental.Controllers.UsersController (CarRental) 
+2025-04-11 13:44:24.9428 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder | Attempting to bind parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest' ... 
+2025-04-11 13:44:24.9428 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder | Attempting to bind parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest' using the name '' in request data ... 
+2025-04-11 13:44:24.9428 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder | Done attempting to bind parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest'. 
+2025-04-11 13:44:24.9428 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder | Done attempting to bind parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest'. 
+2025-04-11 13:44:24.9428 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder | Attempting to validate the bound parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest' ... 
+2025-04-11 13:44:24.9757 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder | Done attempting to validate the bound parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest'. 
+2025-04-11 13:44:24.9757 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-04-11 13:44:24.9757 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-04-11 13:44:24.9880 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executing action method CarRental.Controllers.UsersController.GetAll (CarRental) - Validation state: Valid 
+2025-04-11 13:44:24.9880 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executing action method CarRental.Controllers.UsersController.GetAll (CarRental) with arguments (CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest) 
+2025-04-11 13:44:49.0529 | DEBUG | Microsoft.EntityFrameworkCore.Query | Compiling query expression: 
+'DbSet<User>()' 
+2025-04-11 13:44:49.0666 | DEBUG | Microsoft.EntityFrameworkCore.Query | Generated query execution expression: 
+'queryContext => SingleQueryingEnumerable.Create<User>(
+    relationalQueryContext: (RelationalQueryContext)queryContext, 
+    relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.FirstName (string) Required, 1], [Property: User.LastName (string) Required, 2], [Property: User.Password (string) Required MaxLength(30), 3], [Property: User.Username (string) Required, 4] }
+        SELECT u.Id, u.FirstName, u.LastName, u.Password, u.Username
+        FROM Users AS u) | Resolver: c => new RelationalCommandCache(
+        c.Dependencies.MemoryCache, 
+        c.RelationalDependencies.QuerySqlGeneratorFactory, 
+        c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.FirstName (string) Required, 1], [Property: User.LastName (string) Required, 2], [Property: User.Password (string) Required MaxLength(30), 3], [Property: User.Username (string) Required, 4] }
+        SELECT u.Id, u.FirstName, u.LastName, u.Password, u.Username
+        FROM Users AS u, 
+        False, 
+        new HashSet<string>(
+            new string[]{ }, 
+            StringComparer.Ordinal
+        )
+    )].GetRelationalCommandTemplate(parameters), 
+    readerColumns: null, 
+    shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+    {
+        User entity;
+        entity = 
+        {
+            MaterializationContext materializationContext1;
+            IEntityType entityType1;
+            User instance1;
+            InternalEntityEntry entry1;
+            bool hasNullKey1;
+            materializationContext1 = new MaterializationContext(
+                [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                queryContext.Context
+            );
+            instance1 = default(User);
+            entry1 = queryContext.TryGetEntry(
+                key: [LIFTABLE Constant: Key: User.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User").FindPrimaryKey()], 
+                keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                throwOnNullKey: True, 
+                hasNullKey: hasNullKey1);
+            !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+            {
+                entityType1 = entry1.EntityType;
+                return instance1 = (User)entry1.Entity;
+            } : 
+            {
+                ISnapshot shadowSnapshot1;
+                shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User")];
+                instance1 = switch (entityType1)
+                {
+                    case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User")]: 
+                        {
+                            return 
+                            {
+                                User instance;
+                                instance = new User();
+                                instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                instance.<FirstName>k__BackingField = dataReader.GetString(1);
+                                instance.<LastName>k__BackingField = dataReader.GetString(2);
+                                instance.<Password>k__BackingField = dataReader.GetString(3);
+                                instance.<Username>k__BackingField = dataReader.GetString(4);
+                                (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                    context: materializationContext1.Context, 
+                                    entity: instance, 
+                                    queryTrackingBehavior: TrackAll, 
+                                    structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("CarRental.DataAccess.Entities.User")]) : default(void);
+                                return instance;
+                            }}
+                    default: 
+                        default(User)
+                }
+                ;
+                entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                    entityType: entityType1, 
+                    entity: instance1, 
+                    snapshot: shadowSnapshot1);
+                return instance1;
+            } : default(void);
+            return instance1;
+        };
+        return entity;
+    }, 
+    contextType: CarRental.DataAccess.CarRentalStorageContext, 
+    standAloneStateManager: False, 
+    detailedErrorsEnabled: False, 
+    threadSafetyChecksEnabled: True)' 
+2025-04-11 13:44:49.0666 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opening connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:44:49.0666 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opened connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:44:49.0666 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Creating DbCommand for 'ExecuteReader'. 
+2025-04-11 13:44:49.0666 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Created DbCommand for 'ExecuteReader' (0ms). 
+2025-04-11 13:44:49.0666 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-04-11 13:44:49.0666 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u] 
+2025-04-11 13:44:49.1505 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (80ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u] 
+2025-04-11 13:44:49.1505 | DEBUG | Microsoft.EntityFrameworkCore.ChangeTracking | Context 'CarRentalStorageContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-04-11 13:44:49.1505 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Closing data reader to 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:44:49.1505 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | A data reader for 'CarRentalStorage' on server '.\SQLEXPRESS01' is being disposed after spending 3ms reading results. 
+2025-04-11 13:44:49.1505 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closing connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:44:49.1505 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closed connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01' (0ms). 
+2025-04-11 13:45:03.3651 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action method CarRental.Controllers.UsersController.GetAll (CarRental), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 38369.4923ms. 
+2025-04-11 13:45:03.3651 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-04-11 13:45:03.3651 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-04-11 13:45:03.3651 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-04-11 13:45:03.3651 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-04-11 13:45:03.3651 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-04-11 13:45:03.3651 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-04-11 13:45:03.3726 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | No information found on request to perform content negotiation. 
+2025-04-11 13:45:03.3726 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-04-11 13:45:03.3726 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-04-11 13:45:03.3726 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-04-11 13:45:03.3726 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersResponse'. 
+2025-04-11 13:45:09.0255 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-04-11 13:45:09.0255 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-04-11 13:45:09.0255 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-04-11 13:45:09.0407 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action CarRental.Controllers.UsersController.GetAll (CarRental) in 44109.0892ms 
+2025-04-11 13:45:09.0407 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 13:45:09.0407 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO37" completed keep alive response. 
+2025-04-11 13:45:09.0407 | DEBUG | Microsoft.EntityFrameworkCore.Infrastructure | 'CarRentalStorageContext' disposed. 
+2025-04-11 13:45:09.0530 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Disposing connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:45:09.0530 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Disposed connection to database '' on server '' (2ms). 
+2025-04-11 13:45:09.0530 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 200 - application/json;+charset=utf-8 46513.2644ms 
+2025-04-11 13:45:09.8945 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-04-11 13:45:09.8945 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-04-11 13:45:20.3573 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request starting HTTP/1.1 GET https://localhost:7256/Users - - - 
+2025-04-11 13:45:20.3573 | TRACE | Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware | All hosts are allowed. 
+2025-04-11 13:45:20.3573 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | 1 candidate(s) found for the request path '/Users' 
+2025-04-11 13:45:20.3573 | DEBUG | Microsoft.AspNetCore.Routing.Matching.DfaMatcher | Endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' with route pattern 'Users' is valid for the request path '/Users' 
+2025-04-11 13:45:20.3573 | DEBUG | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | Request matched endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 13:45:20.3573 | TRACE | Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware | The endpoint does not specify the IRequestSizeLimitMetadata. 
+2025-04-11 13:45:20.3573 | DEBUG | Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware | Static files was skipped as the request already matched an endpoint. 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Infrastructure | Entity Framework Core 9.0.3 initialized 'CarRentalStorageContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.3' with options: EngineType=SqlServer  
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Creating DbConnection. 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Created DbConnection. (0ms). 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opening connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opened connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Creating DbCommand for 'ExecuteReader'. 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Created DbCommand for 'ExecuteReader' (0ms). 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Executing DbCommand [Parameters=[@__Username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__Username_0 
+2025-04-11 13:45:20.3794 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (4ms) [Parameters=[@__Username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__Username_0 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.ChangeTracking | Context 'CarRentalStorageContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Closing data reader to 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | A data reader for 'CarRentalStorage' on server '.\SQLEXPRESS01' is being disposed after spending 0ms reading results. 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closing connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:45:20.3794 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closed connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01' (0ms). 
+2025-04-11 13:45:20.3794 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated. 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Authorization.DefaultAuthorizationService | Authorization was successful. 
+2025-04-11 13:45:20.3950 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executing endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 13:45:20.3950 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest) on controller CarRental.Controllers.UsersController (CarRental). 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of authorization filters (in the following order): None 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of resource filters (in the following order): None 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of exception filters (in the following order): None 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executing controller factory for controller CarRental.Controllers.UsersController (CarRental) 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed controller factory for controller CarRental.Controllers.UsersController (CarRental) 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder | Attempting to bind parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest' ... 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder | Attempting to bind parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest' using the name '' in request data ... 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder | Done attempting to bind parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest'. 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder | Done attempting to bind parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest'. 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder | Attempting to validate the bound parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest' ... 
+2025-04-11 13:45:20.3950 | DEBUG | Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder | Done attempting to validate the bound parameter 'request' of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest'. 
+2025-04-11 13:45:20.3950 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-04-11 13:45:20.3950 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-04-11 13:45:20.3950 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executing action method CarRental.Controllers.UsersController.GetAll (CarRental) - Validation state: Valid 
+2025-04-11 13:45:20.3950 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executing action method CarRental.Controllers.UsersController.GetAll (CarRental) with arguments (CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersRequest) 
+2025-04-11 13:45:35.5008 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opening connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:45:35.5008 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Opened connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:45:35.5008 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Creating DbCommand for 'ExecuteReader'. 
+2025-04-11 13:45:35.5008 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Created DbCommand for 'ExecuteReader' (0ms). 
+2025-04-11 13:45:35.5008 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Initialized DbCommand for 'ExecuteReader' (0ms). 
+2025-04-11 13:45:35.5008 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u] 
+2025-04-11 13:45:35.5730 | INFO | Microsoft.EntityFrameworkCore.Database.Command | Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[FirstName], [u].[LastName], [u].[Password], [u].[Username]
+FROM [Users] AS [u] 
+2025-04-11 13:45:35.5982 | DEBUG | Microsoft.EntityFrameworkCore.ChangeTracking | Context 'CarRentalStorageContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2025-04-11 13:45:35.5982 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | Closing data reader to 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:45:35.5982 | DEBUG | Microsoft.EntityFrameworkCore.Database.Command | A data reader for 'CarRentalStorage' on server '.\SQLEXPRESS01' is being disposed after spending 27ms reading results. 
+2025-04-11 13:45:35.5982 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closing connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:45:35.5982 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Closed connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01' (0ms). 
+2025-04-11 13:46:03.0526 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action method CarRental.Controllers.UsersController.GetAll (CarRental), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 42654.1969ms. 
+2025-04-11 13:46:03.0526 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-04-11 13:46:03.0526 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2025-04-11 13:46:03.0526 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-04-11 13:46:03.0526 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-04-11 13:46:03.0526 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-04-11 13:46:03.0526 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2025-04-11 13:46:03.0526 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | No information found on request to perform content negotiation. 
+2025-04-11 13:46:03.0526 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | Attempting to select an output formatter without using a content type as no explicit content types were specified for the response. 
+2025-04-11 13:46:03.0526 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | Attempting to select the first formatter in the output formatters list which can write the result. 
+2025-04-11 13:46:03.0526 | DEBUG | Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector | Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2025-04-11 13:46:03.0526 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor | Executing OkObjectResult, writing value of type 'CarRental.ApplicationServices.API.Domain.UserReqAndResp.GetUsersResponse'. 
+2025-04-11 13:46:08.5807 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2025-04-11 13:46:08.5807 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2025-04-11 13:46:11.7550 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2025-04-11 13:46:11.7550 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-04-11 13:46:11.7550 | TRACE | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2025-04-11 13:46:11.7550 | INFO | Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker | Executed action CarRental.Controllers.UsersController.GetAll (CarRental) in 51359.5146ms 
+2025-04-11 13:46:11.7550 | INFO | Microsoft.AspNetCore.Routing.EndpointMiddleware | Executed endpoint 'CarRental.Controllers.UsersController.GetAll (CarRental)' 
+2025-04-11 13:46:11.7550 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO37" completed keep alive response. 
+2025-04-11 13:46:11.7550 | DEBUG | Microsoft.EntityFrameworkCore.Infrastructure | 'CarRentalStorageContext' disposed. 
+2025-04-11 13:46:11.7550 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Disposing connection to database 'CarRentalStorage' on server '.\SQLEXPRESS01'. 
+2025-04-11 13:46:11.7550 | DEBUG | Microsoft.EntityFrameworkCore.Database.Connection | Disposed connection to database '' on server '' (0ms). 
+2025-04-11 13:46:11.7550 | INFO | Microsoft.AspNetCore.Hosting.Diagnostics | Request finished HTTP/1.1 GET https://localhost:7256/Users - 200 - application/json;+charset=utf-8 51399.0429ms 
+2025-04-11 13:47:00.8966 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" received GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2025-04-11 13:47:00.8966 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOTOHVPO35" received FIN. 
+2025-04-11 13:47:00.9053 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" is closing. 
+2025-04-11 13:47:00.9053 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" is closed. The last processed stream ID was 11. 
+2025-04-11 13:47:00.9053 | TRACE | Microsoft.AspNetCore.Server.Kestrel.Http2 | Connection id "0HNBOTOHVPO35" sending GOAWAY frame for stream ID 0 with length 8 and flags 0x0. 
+2025-04-11 13:47:00.9053 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOTOHVPO35" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2025-04-11 13:47:00.9053 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets | Connection id "0HNBOTOHVPO35" reset. 
+2025-04-11 13:47:00.9207 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Http2 | The connection queue processing loop for 0HNBOTOHVPO35 completed. 
+2025-04-11 13:47:00.9207 | DEBUG | Microsoft.AspNetCore.Server.Kestrel.Connections | Connection id "0HNBOTOHVPO35" stopped. 

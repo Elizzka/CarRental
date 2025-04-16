@@ -5,3 +5,37 @@
 2025-04-11 12:28:37.2242 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
 2025-04-11 12:28:47.1248 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
 2025-04-11 12:31:11.5981 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 12:39:06.4735 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-11 12:39:06.4735 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-11 12:39:06.6068 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-11 12:39:06.6068 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-11 12:39:06.6099 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-11 12:39:17.8134 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 12:39:37.7388 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 12:40:57.0639 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 12:41:02.0602 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 12:47:11.0003 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 12:47:57.0394 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 12:48:00.6896 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 12:48:48.6246 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 12:49:00.0429 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 12:49:19.6060 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 12:56:44.9103 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 12:56:50.5192 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 13:00:04.7063 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-11 13:00:04.7063 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-11 13:00:04.8884 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-11 13:00:04.8884 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-11 13:00:04.8884 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-11 13:00:15.9796 | INFO | CarRental.Authentication.BasicAuthenticationHandler | BasicAuthentication was not authenticated. Failure message: Missing Authorization Header  | url: https://localhost/Users
+2025-04-11 13:00:15.9891 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 13:00:26.1253 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/Users
+2025-04-11 13:43:55.7555 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-11 13:43:55.7555 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-11 13:43:56.0668 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-11 13:43:56.0668 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-11 13:43:56.0668 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-11 13:44:10.4012 | INFO | CarRental.Authentication.BasicAuthenticationHandler | BasicAuthentication was not authenticated. Failure message: Missing Authorization Header  | url: https://localhost/Users
+2025-04-11 13:44:10.4076 | INFO | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was challenged.  | url: https://localhost/Users
+2025-04-11 13:44:24.8789 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/Users
+2025-04-11 13:45:20.3794 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/Users
