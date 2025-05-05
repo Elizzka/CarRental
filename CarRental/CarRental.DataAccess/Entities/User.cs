@@ -9,8 +9,9 @@ namespace CarRental.DataAccess.Entities
         public string LastName { get; set; }
         public string Username { get; set; }
         [Required]
-        [MaxLength(30)]
+        [MaxLength(300)]
         [MinLength(4)]
         public string Password { get; set; }
+        public string Salt { get; set; }
     }
 }

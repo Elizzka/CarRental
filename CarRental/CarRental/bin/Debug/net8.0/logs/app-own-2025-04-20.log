@@ -1,0 +1,81 @@
+2025-04-20 17:45:23.0875 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-20 17:45:23.0993 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-20 17:45:23.3636 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-20 17:45:23.3636 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-20 17:45:23.3636 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-20 17:47:31.1582 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was not authenticated.  | url: https://localhost/users/authenticate
+2025-04-20 17:47:37.1571 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/users
+2025-04-20 17:47:41.1320 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/cars
+2025-04-20 17:47:41.1392 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/cars
+2025-04-20 17:47:42.9250 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/customers
+2025-04-20 17:47:46.4915 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/employees
+2025-04-20 17:47:49.0729 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-04-20 17:56:49.2488 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-20 17:56:49.2488 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-20 17:56:49.3568 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-20 17:56:49.3568 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-20 17:56:49.3568 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-20 17:57:13.7601 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was not authenticated.  | url: https://localhost/users/authenticate
+2025-04-20 17:57:25.3848 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-04-20 17:57:29.4518 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-04-20 17:58:22.8316 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/employees
+2025-04-20 18:03:35.5345 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-20 18:03:35.5345 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-20 18:03:35.7111 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-20 18:03:35.7111 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-20 18:03:35.7111 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-20 18:03:51.3014 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-04-20 18:03:56.0151 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-04-20 18:04:00.2911 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-04-20 18:04:48.3749 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-20 18:04:48.3749 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-20 18:04:48.6095 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-20 18:04:48.6095 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-20 18:04:48.6095 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-20 18:04:58.8130 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-04-20 18:15:37.3196 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-20 18:15:37.3312 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-20 18:15:37.6047 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-20 18:15:37.6047 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-20 18:15:37.6047 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-20 18:16:01.8765 | ERROR | Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware | An unhandled exception has occurred while executing the request. System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.
+   at System.Collections.Immutable.ImmutableSortedDictionary`2.Enumerator..ctor(Node root, Builder builder)
+   at System.Collections.Immutable.ImmutableSortedDictionary`2.Node.GetEnumerator()
+   at System.Collections.Immutable.ImmutableSortedDictionary`2.GetEnumerator()
+   at System.Collections.Immutable.ImmutableSortedDictionary`2.System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
+   at System.Collections.Immutable.ImmutableSortedDictionary`2.Builder.AddRange(IEnumerable`1 items)
+   at Microsoft.EntityFrameworkCore.Diagnostics.WarningsConfiguration.WithExplicit(IEnumerable`1 eventIds, WarningBehavior warningBehavior)
+   at Microsoft.EntityFrameworkCore.Diagnostics.WarningsConfiguration.TryWithExplicit(EventId eventId, WarningBehavior warningBehavior)
+   at Microsoft.EntityFrameworkCore.Infrastructure.CoreOptionsExtension..ctor()
+   at Microsoft.EntityFrameworkCore.DbContextOptionsBuilder.WithOption(Func`2 withFunc)
+   at Microsoft.EntityFrameworkCore.DbContextOptionsBuilder.UseApplicationServiceProvider(IServiceProvider serviceProvider)
+   at Microsoft.EntityFrameworkCore.DbContextOptionsBuilder`1.UseApplicationServiceProvider(IServiceProvider serviceProvider)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.CreateDbContextOptions[TContext](IServiceProvider applicationServiceProvider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context) | url: https://localhost/employees

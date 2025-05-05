@@ -1,0 +1,40 @@
+2025-05-02 13:43:53.2389 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-05-02 13:43:53.2610 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-05-02 13:43:53.4653 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-05-02 13:43:53.4653 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-05-02 13:43:53.4653 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-05-02 13:44:08.4689 | INFO | CarRental.Authentication.BasicAuthenticationHandler | BasicAuthentication was not authenticated. Failure message: Missing Authorization Header  | url: https://localhost/RentalsData
+2025-05-02 13:44:44.3560 | INFO | CarRental.Authentication.BasicAuthenticationHandler | BasicAuthentication was not authenticated. Failure message: Missing Authorization Header  | url: https://localhost/RentalsData/1002
+2025-05-02 13:46:10.9040 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-05-02 13:46:10.9040 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-05-02 13:46:11.0403 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-05-02 13:46:11.0403 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-05-02 13:46:11.0403 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-05-02 13:46:38.1591 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/users
+2025-05-02 13:46:40.0486 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-05-02 13:46:42.0541 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentalsdata
+2025-05-02 13:46:49.6325 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-05-02 13:46:50.8106 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/employees
+2025-05-02 13:46:52.1551 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/customers
+2025-05-02 13:46:53.3214 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/cars
+2025-05-02 13:46:53.3296 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/cars
+2025-05-02 13:46:55.3906 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/users
+2025-05-02 13:46:57.8655 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/users
+2025-05-02 13:47:02.5154 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/cars
+2025-05-02 13:47:02.5154 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/cars
+2025-05-02 13:47:03.3460 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/customers
+2025-05-02 13:47:04.2557 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/employees
+2025-05-02 13:47:05.4413 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-05-02 13:47:06.1745 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentalsdata
+2025-05-02 13:47:15.1070 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was not authenticated.  | url: https://localhost/users/authenticate
+2025-05-02 13:47:17.6925 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/users
+2025-05-02 13:47:19.9350 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/cars
+2025-05-02 13:47:19.9350 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/cars
+2025-05-02 13:47:22.7200 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/customers
+2025-05-02 13:47:24.2297 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/employees
+2025-05-02 13:47:25.4540 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-05-02 13:47:30.8035 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentalsdata
+2025-05-02 13:47:32.1212 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-05-02 13:47:33.5520 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/employees
+2025-05-02 13:47:35.6123 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-05-02 13:47:40.4284 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentalsdata

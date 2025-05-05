@@ -24,12 +24,21 @@ namespace CarRental.Controllers
             return this.HandleRequest<GetUsersRequest, GetUsersResponse>(request);
         }
 
+        //[AllowAnonymous]
+        //[HttpPost]
+        //[Route("authenticate")]
+        //public Task<IActionResult> CreateUser([FromBody] CreateUserRequest request)
+        //{
+        //    return this.HandleRequest<CreateUserRequest, CreateUserResponse>(request);
+        //}
+
         [AllowAnonymous]
         [HttpPost]
-        [Route("")]
-        public Task<IActionResult> CreateUser([FromBody] CreateUserRequest request)
+        [Route("authenticate")]
+        public Task<IActionResult> AuthenticateUser([FromBody] AuthenticateUserRequest request)
         {
-            return this.HandleRequest<CreateUserRequest, CreateUserResponse>(request);
+            return this.HandleRequest<AuthenticateUserRequest, AuthenticateUserResponse>(request);
         }
+
     }
 }

@@ -219,15 +219,15 @@
   },
   {
     "ContainingType": "CarRental.Controllers.UsersController",
-    "Method": "CreateUser",
-    "RelativePath": "Users",
+    "Method": "AuthenticateUser",
+    "RelativePath": "Users/authenticate",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "request",
-        "Type": "CarRental.ApplicationServices.API.Domain.UserReqAndResp.CreateUserRequest",
+        "Type": "CarRental.ApplicationServices.API.Domain.UserReqAndResp.AuthenticateUserRequest",
         "IsRequired": true
       }
     ],

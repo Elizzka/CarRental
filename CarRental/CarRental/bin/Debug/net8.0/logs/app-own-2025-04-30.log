@@ -1,0 +1,22 @@
+2025-04-30 00:01:28.6917 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-30 00:01:28.7086 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-30 00:01:28.9254 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-30 00:01:28.9254 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-30 00:01:28.9254 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 
+2025-04-30 00:02:08.6720 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was not authenticated.  | url: https://localhost/users/authenticate
+2025-04-30 00:02:14.6430 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/users
+2025-04-30 00:02:20.2969 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/cars
+2025-04-30 00:02:20.3108 | INFO | CarRental.Controllers.CarsController | We are in Cars  | url: https://localhost/cars
+2025-04-30 00:02:21.9845 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/customers
+2025-04-30 00:02:22.9402 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/employees
+2025-04-30 00:02:23.9927 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-04-30 00:02:28.6387 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-04-30 00:02:35.3415 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-04-30 00:02:53.1934 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/employees
+2025-04-30 00:03:00.3726 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-04-30 00:03:19.2321 | DEBUG | CarRental.Authentication.BasicAuthenticationHandler | AuthenticationScheme: BasicAuthentication was successfully authenticated.  | url: https://localhost/rentals
+2025-04-30 00:17:06.7459 | INFO | Microsoft.Hosting.Lifetime | Now listening on: https://localhost:7256  | url: 
+2025-04-30 00:17:06.7459 | INFO | Microsoft.Hosting.Lifetime | Now listening on: http://localhost:5031  | url: 
+2025-04-30 00:17:06.8712 | INFO | Microsoft.Hosting.Lifetime | Application started. Press Ctrl+C to shut down.  | url: 
+2025-04-30 00:17:06.8712 | INFO | Microsoft.Hosting.Lifetime | Hosting environment: Development  | url: 
+2025-04-30 00:17:06.8712 | INFO | Microsoft.Hosting.Lifetime | Content root path: C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental  | url: 

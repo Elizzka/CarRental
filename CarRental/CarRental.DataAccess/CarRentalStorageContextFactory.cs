@@ -19,7 +19,7 @@ namespace CarRental.DataAccess
                 {
                     sqlOptions.EnableRetryOnFailure(); 
                 });
-           // optionsBuilder.UseSqlServer("Server=tcp:car-rental.database.windows.net,1433;Initial Catalog=CarRentalStorage;Persist Security Info=False;User ID=eliza;Password=dolinka23! ;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+            //optionsBuilder.UseSqlServer("Data Source=.\\SQLEXPRESS01;Initial Catalog=CarRentalStorage;Integrated Security=True;Trust Server Certificate=True");
             return new CarRentalStorageContext(optionsBuilder.Options);
         }
     }

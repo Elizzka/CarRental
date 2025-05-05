@@ -94,3 +94,309 @@
 2025-04-14 15:04:12.8400 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
 2025-04-14 15:04:12.8712 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
 2025-04-14 15:04:12.8969 Info Configuration initialized.
+2025-04-16 14:12:09.4601 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:12:09.4863 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:12:09.4883 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:12:09.4883 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:12:09.5159 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:12:09.5358 Info Configuration initialized.
+2025-04-16 14:21:28.9586 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:21:28.9831 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:21:28.9831 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:21:28.9977 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:21:29.0143 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:21:29.0354 Info Configuration initialized.
+2025-04-16 14:24:48.1673 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:24:48.1901 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:24:48.1901 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:24:48.2010 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:24:48.2010 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:24:48.2328 Info Configuration initialized.
+2025-04-16 14:27:15.8856 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:27:15.9089 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:27:15.9089 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:27:15.9206 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:27:15.9371 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:27:15.9590 Info Configuration initialized.
+2025-04-16 14:29:19.0007 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:29:19.0262 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:29:19.0262 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:29:19.0262 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:29:19.0615 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:29:19.0813 Info Configuration initialized.
+2025-04-16 14:31:04.3106 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:31:04.3228 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:31:04.3228 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:31:04.3228 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:31:04.3228 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:31:04.3539 Info Configuration initialized.
+2025-04-16 14:34:42.1607 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:34:42.1824 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:34:42.1824 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:34:42.1824 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:34:42.2096 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:34:42.2308 Info Configuration initialized.
+2025-04-16 14:38:24.4339 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:38:24.4629 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:38:24.4629 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:38:24.4748 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:38:24.4928 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:38:24.5155 Info Configuration initialized.
+2025-04-16 14:38:40.1605 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:38:40.1828 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:38:40.1828 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:38:40.1828 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:38:40.2118 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:38:40.2321 Info Configuration initialized.
+2025-04-16 14:45:20.7548 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:45:20.7776 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:45:20.7776 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:45:20.7776 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:45:20.8050 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:45:20.8245 Info Configuration initialized.
+2025-04-16 14:46:07.6583 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:46:07.6809 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:46:07.6809 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:46:07.6930 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:46:07.7088 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:46:07.7312 Info Configuration initialized.
+2025-04-16 14:48:37.2233 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:48:37.2461 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:48:37.2461 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:48:37.2461 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:48:37.2719 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:48:37.2934 Info Configuration initialized.
+2025-04-16 14:58:28.9356 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 14:58:28.9586 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 14:58:28.9586 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 14:58:28.9698 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 14:58:28.9851 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 14:58:29.0039 Info Configuration initialized.
+2025-04-16 15:04:30.9144 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 15:04:30.9374 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 15:04:30.9374 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 15:04:30.9374 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 15:04:30.9632 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 15:04:30.9848 Info Configuration initialized.
+2025-04-16 15:15:07.0049 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 15:15:07.0262 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 15:15:07.0262 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 15:15:07.0262 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 15:15:07.0550 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 15:15:07.0766 Info Configuration initialized.
+2025-04-16 15:18:37.8251 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-16 15:18:37.8506 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-16 15:18:37.8506 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-16 15:18:37.8669 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 15:18:37.8889 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-16 15:18:37.9119 Info Configuration initialized.
+2025-04-17 12:09:42.7571 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-17 12:09:42.7874 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-17 12:09:42.7901 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-17 12:09:42.7901 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-17 12:09:42.8279 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-17 12:09:42.9179 Info Configuration initialized.
+2025-04-17 14:23:22.5646 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-17 14:23:22.6485 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-17 14:23:22.6513 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-17 14:23:22.6513 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-17 14:23:22.6842 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-17 14:23:22.7095 Info Configuration initialized.
+2025-04-17 14:28:32.0513 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-17 14:28:32.0858 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-17 14:28:32.0875 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-17 14:28:32.0875 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-17 14:28:32.1639 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-17 14:28:32.2270 Info Configuration initialized.
+2025-04-17 14:31:43.1122 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-17 14:31:43.1454 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-17 14:31:43.1538 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-17 14:31:43.1707 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-17 14:31:43.1928 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-17 14:31:43.2244 Info Configuration initialized.
+2025-04-17 14:35:21.0428 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-17 14:35:21.0706 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-17 14:35:21.0706 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-17 14:35:21.0887 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-17 14:35:21.1121 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-17 14:35:21.1450 Info Configuration initialized.
+2025-04-17 15:47:37.4628 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-17 15:47:37.4967 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-17 15:47:37.4967 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-17 15:47:37.5140 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-17 15:47:37.5501 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-17 15:47:37.5919 Info Configuration initialized.
+2025-04-18 11:30:35.7845 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 11:30:35.8156 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 11:30:35.8156 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 11:30:35.8270 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 11:30:35.8464 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 11:30:35.8694 Info Configuration initialized.
+2025-04-18 11:33:22.8541 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 11:33:22.8878 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 11:33:22.8985 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 11:33:22.9211 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 11:33:22.9410 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 11:33:23.0455 Info Configuration initialized.
+2025-04-18 11:53:06.0628 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 11:53:06.0901 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 11:53:06.0901 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 11:53:06.1011 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 11:53:06.1165 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 11:53:06.1351 Info Configuration initialized.
+2025-04-18 11:54:48.4445 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 11:54:48.4670 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 11:54:48.4670 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 11:54:48.4670 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 11:54:48.4937 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 11:54:48.5128 Info Configuration initialized.
+2025-04-18 11:55:34.3834 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 11:55:34.4050 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 11:55:34.4050 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 11:55:34.4050 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 11:55:34.4307 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 11:55:34.4489 Info Configuration initialized.
+2025-04-18 11:56:57.7128 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 11:56:57.7476 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 11:56:57.7476 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 11:56:57.7476 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 11:56:57.7834 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 11:56:57.8130 Info Configuration initialized.
+2025-04-18 11:58:00.2086 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 11:58:00.2254 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 11:58:00.2254 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 11:58:00.2254 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 11:58:00.2486 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 11:58:00.2627 Info Configuration initialized.
+2025-04-18 11:59:23.8942 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 11:59:23.9197 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 11:59:23.9197 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 11:59:23.9315 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 11:59:23.9508 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 11:59:23.9775 Info Configuration initialized.
+2025-04-18 12:00:32.3807 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 12:00:32.4054 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 12:00:32.4089 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 12:00:32.4089 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 12:00:32.4359 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 12:00:32.4572 Info Configuration initialized.
+2025-04-18 12:11:19.1652 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 12:11:19.1855 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 12:11:19.1855 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 12:11:19.1855 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 12:11:19.2230 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 12:11:19.2433 Info Configuration initialized.
+2025-04-18 15:55:19.1304 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 15:55:19.1689 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 15:55:19.1689 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 15:55:19.1689 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 15:55:19.2022 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 15:55:19.2324 Info Configuration initialized.
+2025-04-18 16:04:19.3633 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 16:04:19.3942 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 16:04:19.3942 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 16:04:19.4069 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 16:04:19.4276 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 16:04:19.4471 Info Configuration initialized.
+2025-04-18 16:06:30.3689 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 16:06:30.4002 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 16:06:30.4002 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 16:06:30.4151 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 16:06:30.4353 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 16:06:30.4617 Info Configuration initialized.
+2025-04-18 16:32:36.2322 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 16:32:36.2549 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 16:32:36.2549 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 16:32:36.2549 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 16:32:36.2761 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 16:32:36.2898 Info Configuration initialized.
+2025-04-18 16:37:00.6963 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 16:37:00.7270 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 16:37:00.7270 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 16:37:00.7410 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 16:37:00.7764 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 16:37:00.8003 Info Configuration initialized.
+2025-04-18 16:44:20.9864 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 16:44:21.0076 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 16:44:21.0076 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 16:44:21.0076 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 16:44:21.0294 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 16:44:21.0442 Info Configuration initialized.
+2025-04-18 16:48:19.0889 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-18 16:48:19.1199 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-18 16:48:19.1199 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-18 16:48:19.1324 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-18 16:48:19.1557 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-18 16:48:19.1845 Info Configuration initialized.
+2025-04-20 17:45:21.5239 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-20 17:45:21.5582 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-20 17:45:21.5582 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-20 17:45:21.5722 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-20 17:45:21.5944 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-20 17:45:21.6207 Info Configuration initialized.
+2025-04-20 17:56:48.5573 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-20 17:56:48.5710 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-20 17:56:48.5710 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-20 17:56:48.5798 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-20 17:56:48.5970 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-20 17:56:48.6185 Info Configuration initialized.
+2025-04-20 18:03:34.6196 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-20 18:03:34.6474 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-20 18:03:34.6474 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-20 18:03:34.6610 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-20 18:03:34.6811 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-20 18:03:34.7029 Info Configuration initialized.
+2025-04-20 18:04:46.4625 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-20 18:04:46.4929 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-20 18:04:46.4929 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-20 18:04:46.5106 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-20 18:04:46.5436 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-20 18:04:46.5796 Info Configuration initialized.
+2025-04-20 18:15:34.8434 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-20 18:15:34.8696 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-20 18:15:34.8696 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-20 18:15:34.8806 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-20 18:15:34.9030 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-20 18:15:34.9428 Info Configuration initialized.
+2025-04-29 23:52:05.7585 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-29 23:52:05.8506 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-29 23:52:05.8570 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-29 23:52:05.8879 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-29 23:52:05.9202 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-29 23:52:05.9482 Info Configuration initialized.
+2025-04-29 23:52:47.8276 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-29 23:52:47.8593 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-29 23:52:47.8593 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-29 23:52:47.8777 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-29 23:52:47.8998 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-29 23:52:47.9344 Info Configuration initialized.
+2025-04-29 23:58:54.4554 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-29 23:58:54.4890 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-29 23:58:54.4890 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-29 23:58:54.5054 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-29 23:58:54.5245 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-29 23:58:54.5472 Info Configuration initialized.
+2025-04-30 00:01:27.1021 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-30 00:01:27.1214 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-30 00:01:27.1214 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-30 00:01:27.1214 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-30 00:01:27.1437 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-30 00:01:27.1642 Info Configuration initialized.
+2025-04-30 00:17:06.0503 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-04-30 00:17:06.0658 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-04-30 00:17:06.0658 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-04-30 00:17:06.0742 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-30 00:17:06.0742 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-04-30 00:17:06.0963 Info Configuration initialized.
+2025-05-02 13:43:51.4064 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-02 13:43:51.4383 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-02 13:43:51.4383 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-05-02 13:43:51.4558 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-02 13:43:51.4735 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-05-02 13:43:51.4951 Info Configuration initialized.
+2025-05-02 13:46:10.0729 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2025-05-02 13:46:10.1014 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2025-05-02 13:46:10.1014 Info Registered target NLog.Targets.ConsoleTarget(Name=console)
+2025-05-02 13:46:10.1193 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-02 13:46:10.1387 Info Validating config: TargetNames=allfile, console, ownFile-web, ConfigItems=45, FilePath=C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\nlog.config
+2025-05-02 13:46:10.1646 Info Configuration initialized.

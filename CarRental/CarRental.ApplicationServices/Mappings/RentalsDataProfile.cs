@@ -10,12 +10,14 @@ namespace CarRental.ApplicationServices.Mappings
         {
             this.CreateMap<UpdateRentalDataRequest, RentalData>()
                 .ForMember(x => x.Id, y => y.MapFrom(z => z.Id))
+                .ForMember(x => x.RentalId, y => y.MapFrom(z => z.RentalId))
                 .ForMember(x => x.CarId, y => y.MapFrom(z => z.CarId))
                 .ForMember(x => x.PricePerDay, y => y.MapFrom(z => z.PricePerDay))
                 .ForMember(x => x.NumberOfDays, y => y.MapFrom(z => z.NumberOfDays));
 
             this.CreateMap<RentalData, API.Domain.Models.RentalData>()
                 .ForMember(x => x.Id, y => y.MapFrom(z => z.Id))
+                .ForMember(x => x.RentalId, y => y.MapFrom(z => z.RentalId))
                 .ForMember(x => x.CarId, y => y.MapFrom(z => z.CarId))
                 .ForMember(x => x.PricePerDay, y => y.MapFrom(z => z.PricePerDay))
                 .ForMember(x => x.NumberOfDays, y => y.MapFrom(z => z.NumberOfDays));

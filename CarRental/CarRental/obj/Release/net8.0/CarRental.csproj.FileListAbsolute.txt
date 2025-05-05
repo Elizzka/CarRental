@@ -184,3 +184,4 @@ C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\obj\Release\net8.0\
 C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\obj\Release\net8.0\CarRental.pdb
 C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\obj\Release\net8.0\CarRental.genruntimeconfig.cache
 C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\obj\Release\net8.0\ref\CarRental.dll
+C:\Users\elizz\OneDrive\Pulpit\CarRental\CarRental\CarRental\bin\Release\net8.0\appsettings.Production.json

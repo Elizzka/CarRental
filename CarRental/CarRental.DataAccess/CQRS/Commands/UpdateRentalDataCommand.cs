@@ -13,6 +13,7 @@ namespace CarRental.DataAccess.CQRS.Commands
                 return null;
             }
 
+            rentalData.RentalId = this.Parameter.RentalId;
             rentalData.CarId = this.Parameter.CarId;
             rentalData.PricePerDay = this.Parameter.PricePerDay;
             rentalData.NumberOfDays = this.Parameter.NumberOfDays;

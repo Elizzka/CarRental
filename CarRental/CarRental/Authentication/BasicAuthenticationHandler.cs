@@ -59,7 +59,7 @@ namespace CarRental.Authentication
                 user = await this.queryExecutor.Execute(query);
 
                 // TODO: HASH!
-                if (user == null || user.Password != password)
+                if (user == null || !PasswordHasher.VerifyPassword(password, user.Password, user.Salt))
                 {
                     return AuthenticateResult.Fail("Invalid Authorization Header");
                 }
