@@ -32,7 +32,7 @@ namespace CarRental.ApplicationServices.API.Handlers
                 throw new Exception("Invalid username or password");
             }
 
-            var mappedUser = mapper.Map<Domain.Models.User>(user); // jeżeli masz model w API.Domain.Models
+            var mappedUser = mapper.Map<Domain.Models.User>(user); 
 
             var response = new AuthenticateUserResponse()
             {

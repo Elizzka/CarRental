@@ -32,7 +32,6 @@ namespace CarRental.Authentication
 
         protected override async Task<AuthenticateResult> HandleAuthenticateAsync()
         {
-            // skip authentication if endpoint has [AllowAnonymous] attribute
             var endpoint = Context.GetEndpoint();
             if (endpoint?.Metadata?.GetMetadata<IAllowAnonymous>() != null)
             {
@@ -58,7 +57,6 @@ namespace CarRental.Authentication
                 };
                 user = await this.queryExecutor.Execute(query);
 
-                // TODO: HASH!
                 if (user == null || !PasswordHasher.VerifyPassword(password, user.Password, user.Salt))
                 {
                     return AuthenticateResult.Fail("Invalid Authorization Header");

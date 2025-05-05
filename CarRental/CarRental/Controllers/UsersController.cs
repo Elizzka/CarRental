@@ -24,14 +24,6 @@ namespace CarRental.Controllers
             return this.HandleRequest<GetUsersRequest, GetUsersResponse>(request);
         }
 
-        //[AllowAnonymous]
-        //[HttpPost]
-        //[Route("authenticate")]
-        //public Task<IActionResult> CreateUser([FromBody] CreateUserRequest request)
-        //{
-        //    return this.HandleRequest<CreateUserRequest, CreateUserResponse>(request);
-        //}
-
         [AllowAnonymous]
         [HttpPost]
         [Route("authenticate")]
